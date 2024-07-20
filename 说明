@@ -1,0 +1,44 @@
+READ ME
+
+一、文件夹data：数据集
+   huajiao：花椒点云数据，用于分割
+   modelnet40_normal_resampled：modelnet40点云数据，用于分类
+   shapenetcore：shapenet公共点云数据集，用于分割
+   shrink_data:减少数量后的shapenet
+   
+二、文件夹data_utils：加载数据集
+   huajiaoDataLoader:加载花椒点云数据
+   ModelNetDataLoader:加载modelnet40数据
+   ShapeNetDataLoader：可以加载shapenet和shrink_shapenet数据
+   
+三、文件夹models：所有的训练模型代码
+  （1）pointnet2_cls_msg.py:进行分类任务的msg方法模型
+  （2）pointnet2_cls_ssg.py：进行分类任务的ssg方法模型
+  （3）pointnet2_cls_ssg_fpa.py:在(2)加入FBAB注意力机制
+  （4）pointnet2_cls_ssg_dpa.py:在(2)加入DBAB注意力机制
+  （5）pointnet2_part_seg_msg.py:进行部件分割的msg方法，对shapenet或shrink_shapenet使用
+  （6）pointnet2_part_seg_ssg.py:进行部件分割的ssg方法
+  （7）pointnet2_part_seg_msg_fpa.py:在（5）加入FBAB注意力机制
+  （8）pointnet2_part_seg_msg_dpa.py:在（5）加入DBAB注意力机制
+  （9）pointnet2_part_seg_msg_sg.py:使用了CRGB协同编码的msg分割shapenet
+  （10）pointnet2_part_seg_msg_sgfpa.py:在（9）加入了FBAB注意力机制
+  （11）pointnet2_part_seg_msg_my.py：对花椒数据进行分割的msg
+  （12）pointnet2_part_seg_msg_myfpa.py：在（11）加入FBAB注意力机制
+  （13）pointnet2_part_seg_msg_mydpa.py：在（11）加入DBAB注意力机制
+  (14)pointnet2_part_seg_msg_mysg.py：使用了CRGB协同编码的花椒数据分割msg
+  (15)pointnet2part_seg_msg_mysgfpa.py：在（14）加入FBAB注意力机制
+  (16)pointnet2_part_seg_msg_mysgdpa.py：在（14）加入DBAB注意力机制
+  （17）pointnet2_part_seg_ssg_my.py：对花椒数据进行分割的ssg
+  其他是一些底层算法
+  
+  四、训练代码：
+  （1）train_classification.py：进行分类的训练代码
+  （2）test_classification.py：进行分类的测试代码
+  （3）train_classification_fpa.py：加入FBAB注意力机制后进行分类的训练代码
+  （4）train_classification_dpa.py：加入DBAB注意力机制后进行分类的训练代码
+  （5）train_partseg.py：进行部件分割的训练代码，对shapenet使用
+  （6）train_partseg3.py：进行部件分割的训练代码，对shrink_shapenet使用
+  （7）train_partseg_my.py：对花椒果实的训练代码
+  
+  训练命令类似如下：
+  python train_partseg3.py --model pointnet2_part_seg_msg_sgfpa --normal --log_dir pointnet2_part_seg_msg_sgfpa --batch_size 12

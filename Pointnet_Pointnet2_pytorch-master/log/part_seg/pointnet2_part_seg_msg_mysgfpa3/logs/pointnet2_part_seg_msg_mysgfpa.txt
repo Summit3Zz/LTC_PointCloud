@@ -1,0 +1,1547 @@
+2023-05-28 23:00:13,584 - Model - INFO - PARAMETER ...
+2023-05-28 23:00:13,584 - Model - INFO - Namespace(batch_size=5, decay_rate=0.0001, epoch=150, gpu='0', learning_rate=0.001, log_dir='pointnet2_part_seg_msg_mysgfpa3', lr_decay=0.5, model='pointnet2_part_seg_msg_mysgfpa', normal=True, npoint=4096, optimizer='Adam', step_size=20)
+2023-05-28 23:00:13,586 - Model - INFO - The number of training data is: 150
+2023-05-28 23:00:13,586 - Model - INFO - The number of test data is: 20
+2023-05-28 23:00:15,716 - Model - INFO - No existing model, starting training from scratch...
+2023-05-28 23:00:15,718 - Model - INFO - Epoch 1 (1/150):
+2023-05-28 23:00:15,718 - Model - INFO - Learning rate:0.001000
+2023-05-28 23:00:29,953 - Model - INFO - Train accuracy is: 0.53861
+2023-05-28 23:00:31,707 - Model - INFO - eval mIoU of guoshi         0.000000
+2023-05-28 23:00:31,708 - Model - INFO - eval mIoU of shuye          0.000000
+2023-05-28 23:00:31,708 - Model - INFO - eval mIoU of zhigan         0.438372
+2023-05-28 23:00:31,708 - Model - INFO - Epoch 1 test Accuracy: 0.518519  Class avg mIOU: 0.146124   Inctance avg mIOU: 0.153430
+2023-05-28 23:00:31,708 - Model - INFO - Save model...
+2023-05-28 23:00:31,708 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg_mysgfpa3/checkpoints/best_model.pth
+2023-05-28 23:00:31,776 - Model - INFO - Saving model....
+2023-05-28 23:00:31,777 - Model - INFO - Best accuracy is: 0.51852
+2023-05-28 23:00:31,777 - Model - INFO - Best class avg mIOU is: 0.14612
+2023-05-28 23:00:31,777 - Model - INFO - Best inctance avg mIOU is: 0.15343
+2023-05-28 23:00:31,777 - Model - INFO - Epoch 2 (2/150):
+2023-05-28 23:00:31,777 - Model - INFO - Learning rate:0.001000
+2023-05-28 23:00:45,545 - Model - INFO - Train accuracy is: 0.65798
+2023-05-28 23:00:47,294 - Model - INFO - eval mIoU of guoshi         0.007846
+2023-05-28 23:00:47,294 - Model - INFO - eval mIoU of shuye          0.462892
+2023-05-28 23:00:47,294 - Model - INFO - eval mIoU of zhigan         0.473240
+2023-05-28 23:00:47,294 - Model - INFO - Epoch 2 test Accuracy: 0.647198  Class avg mIOU: 0.314659   Inctance avg mIOU: 0.329482
+2023-05-28 23:00:47,294 - Model - INFO - Save model...
+2023-05-28 23:00:47,294 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg_mysgfpa3/checkpoints/best_model.pth
+2023-05-28 23:00:47,394 - Model - INFO - Saving model....
+2023-05-28 23:00:47,394 - Model - INFO - Best accuracy is: 0.64720
+2023-05-28 23:00:47,394 - Model - INFO - Best class avg mIOU is: 0.31466
+2023-05-28 23:00:47,394 - Model - INFO - Best inctance avg mIOU is: 0.32948
+2023-05-28 23:00:47,394 - Model - INFO - Epoch 3 (3/150):
+2023-05-28 23:00:47,394 - Model - INFO - Learning rate:0.001000
+2023-05-28 23:01:01,165 - Model - INFO - Train accuracy is: 0.69405
+2023-05-28 23:01:02,928 - Model - INFO - eval mIoU of guoshi         0.002863
+2023-05-28 23:01:02,929 - Model - INFO - eval mIoU of shuye          0.433316
+2023-05-28 23:01:02,929 - Model - INFO - eval mIoU of zhigan         0.459762
+2023-05-28 23:01:02,929 - Model - INFO - Epoch 3 test Accuracy: 0.679037  Class avg mIOU: 0.298647   Inctance avg mIOU: 0.290591
+2023-05-28 23:01:02,929 - Model - INFO - Best accuracy is: 0.67904
+2023-05-28 23:01:02,929 - Model - INFO - Best class avg mIOU is: 0.31466
+2023-05-28 23:01:02,929 - Model - INFO - Best inctance avg mIOU is: 0.32948
+2023-05-28 23:01:02,929 - Model - INFO - Epoch 4 (4/150):
+2023-05-28 23:01:02,929 - Model - INFO - Learning rate:0.001000
+2023-05-28 23:01:16,711 - Model - INFO - Train accuracy is: 0.71323
+2023-05-28 23:01:18,486 - Model - INFO - eval mIoU of guoshi         0.076999
+2023-05-28 23:01:18,486 - Model - INFO - eval mIoU of shuye          0.526866
+2023-05-28 23:01:18,486 - Model - INFO - eval mIoU of zhigan         0.398815
+2023-05-28 23:01:18,486 - Model - INFO - Epoch 4 test Accuracy: 0.695155  Class avg mIOU: 0.334227   Inctance avg mIOU: 0.392075
+2023-05-28 23:01:18,486 - Model - INFO - Save model...
+2023-05-28 23:01:18,486 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg_mysgfpa3/checkpoints/best_model.pth
+2023-05-28 23:01:18,587 - Model - INFO - Saving model....
+2023-05-28 23:01:18,587 - Model - INFO - Best accuracy is: 0.69515
+2023-05-28 23:01:18,587 - Model - INFO - Best class avg mIOU is: 0.33423
+2023-05-28 23:01:18,587 - Model - INFO - Best inctance avg mIOU is: 0.39207
+2023-05-28 23:01:18,587 - Model - INFO - Epoch 5 (5/150):
+2023-05-28 23:01:18,587 - Model - INFO - Learning rate:0.001000
+2023-05-28 23:01:32,273 - Model - INFO - Train accuracy is: 0.73012
+2023-05-28 23:01:34,046 - Model - INFO - eval mIoU of guoshi         0.083099
+2023-05-28 23:01:34,046 - Model - INFO - eval mIoU of shuye          0.563530
+2023-05-28 23:01:34,046 - Model - INFO - eval mIoU of zhigan         0.571704
+2023-05-28 23:01:34,046 - Model - INFO - Epoch 5 test Accuracy: 0.717848  Class avg mIOU: 0.406111   Inctance avg mIOU: 0.495144
+2023-05-28 23:01:34,046 - Model - INFO - Save model...
+2023-05-28 23:01:34,046 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg_mysgfpa3/checkpoints/best_model.pth
+2023-05-28 23:01:34,153 - Model - INFO - Saving model....
+2023-05-28 23:01:34,153 - Model - INFO - Best accuracy is: 0.71785
+2023-05-28 23:01:34,154 - Model - INFO - Best class avg mIOU is: 0.40611
+2023-05-28 23:01:34,154 - Model - INFO - Best inctance avg mIOU is: 0.49514
+2023-05-28 23:01:34,154 - Model - INFO - Epoch 6 (6/150):
+2023-05-28 23:01:34,154 - Model - INFO - Learning rate:0.001000
+2023-05-28 23:01:47,948 - Model - INFO - Train accuracy is: 0.74893
+2023-05-28 23:01:49,685 - Model - INFO - eval mIoU of guoshi         0.113338
+2023-05-28 23:01:49,685 - Model - INFO - eval mIoU of shuye          0.469964
+2023-05-28 23:01:49,685 - Model - INFO - eval mIoU of zhigan         0.737640
+2023-05-28 23:01:49,685 - Model - INFO - Epoch 6 test Accuracy: 0.728701  Class avg mIOU: 0.440314   Inctance avg mIOU: 0.389744
+2023-05-28 23:01:49,685 - Model - INFO - Best accuracy is: 0.72870
+2023-05-28 23:01:49,686 - Model - INFO - Best class avg mIOU is: 0.44031
+2023-05-28 23:01:49,686 - Model - INFO - Best inctance avg mIOU is: 0.49514
+2023-05-28 23:01:49,686 - Model - INFO - Epoch 7 (7/150):
+2023-05-28 23:01:49,686 - Model - INFO - Learning rate:0.001000
+2023-05-28 23:02:03,477 - Model - INFO - Train accuracy is: 0.76434
+2023-05-28 23:02:05,236 - Model - INFO - eval mIoU of guoshi         0.121426
+2023-05-28 23:02:05,236 - Model - INFO - eval mIoU of shuye          0.545798
+2023-05-28 23:02:05,236 - Model - INFO - eval mIoU of zhigan         0.572330
+2023-05-28 23:02:05,236 - Model - INFO - Epoch 7 test Accuracy: 0.746777  Class avg mIOU: 0.413185   Inctance avg mIOU: 0.451644
+2023-05-28 23:02:05,236 - Model - INFO - Best accuracy is: 0.74678
+2023-05-28 23:02:05,236 - Model - INFO - Best class avg mIOU is: 0.44031
+2023-05-28 23:02:05,236 - Model - INFO - Best inctance avg mIOU is: 0.49514
+2023-05-28 23:02:05,236 - Model - INFO - Epoch 8 (8/150):
+2023-05-28 23:02:05,236 - Model - INFO - Learning rate:0.001000
+2023-05-28 23:02:19,137 - Model - INFO - Train accuracy is: 0.77323
+2023-05-28 23:02:20,888 - Model - INFO - eval mIoU of guoshi         0.000000
+2023-05-28 23:02:20,888 - Model - INFO - eval mIoU of shuye          0.554928
+2023-05-28 23:02:20,888 - Model - INFO - eval mIoU of zhigan         0.592058
+2023-05-28 23:02:20,888 - Model - INFO - Epoch 8 test Accuracy: 0.755854  Class avg mIOU: 0.382329   Inctance avg mIOU: 0.479115
+2023-05-28 23:02:20,888 - Model - INFO - Best accuracy is: 0.75585
+2023-05-28 23:02:20,888 - Model - INFO - Best class avg mIOU is: 0.44031
+2023-05-28 23:02:20,888 - Model - INFO - Best inctance avg mIOU is: 0.49514
+2023-05-28 23:02:20,888 - Model - INFO - Epoch 9 (9/150):
+2023-05-28 23:02:20,888 - Model - INFO - Learning rate:0.001000
+2023-05-28 23:02:34,893 - Model - INFO - Train accuracy is: 0.78822
+2023-05-28 23:02:36,723 - Model - INFO - eval mIoU of guoshi         0.167001
+2023-05-28 23:02:36,723 - Model - INFO - eval mIoU of shuye          0.566976
+2023-05-28 23:02:36,723 - Model - INFO - eval mIoU of zhigan         0.465988
+2023-05-28 23:02:36,724 - Model - INFO - Epoch 9 test Accuracy: 0.770216  Class avg mIOU: 0.399988   Inctance avg mIOU: 0.431637
+2023-05-28 23:02:36,724 - Model - INFO - Best accuracy is: 0.77022
+2023-05-28 23:02:36,724 - Model - INFO - Best class avg mIOU is: 0.44031
+2023-05-28 23:02:36,724 - Model - INFO - Best inctance avg mIOU is: 0.49514
+2023-05-28 23:02:36,724 - Model - INFO - Epoch 10 (10/150):
+2023-05-28 23:02:36,724 - Model - INFO - Learning rate:0.001000
+2023-05-28 23:02:50,722 - Model - INFO - Train accuracy is: 0.79423
+2023-05-28 23:02:52,491 - Model - INFO - eval mIoU of guoshi         0.239462
+2023-05-28 23:02:52,491 - Model - INFO - eval mIoU of shuye          0.578403
+2023-05-28 23:02:52,491 - Model - INFO - eval mIoU of zhigan         0.592929
+2023-05-28 23:02:52,491 - Model - INFO - Epoch 10 test Accuracy: 0.772342  Class avg mIOU: 0.470265   Inctance avg mIOU: 0.531920
+2023-05-28 23:02:52,491 - Model - INFO - Save model...
+2023-05-28 23:02:52,491 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg_mysgfpa3/checkpoints/best_model.pth
+2023-05-28 23:02:52,600 - Model - INFO - Saving model....
+2023-05-28 23:02:52,600 - Model - INFO - Best accuracy is: 0.77234
+2023-05-28 23:02:52,600 - Model - INFO - Best class avg mIOU is: 0.47026
+2023-05-28 23:02:52,601 - Model - INFO - Best inctance avg mIOU is: 0.53192
+2023-05-28 23:02:52,601 - Model - INFO - Epoch 11 (11/150):
+2023-05-28 23:02:52,601 - Model - INFO - Learning rate:0.001000
+2023-05-28 23:03:06,312 - Model - INFO - Train accuracy is: 0.79654
+2023-05-28 23:03:08,070 - Model - INFO - eval mIoU of guoshi         0.159935
+2023-05-28 23:03:08,070 - Model - INFO - eval mIoU of shuye          0.492469
+2023-05-28 23:03:08,070 - Model - INFO - eval mIoU of zhigan         0.336654
+2023-05-28 23:03:08,070 - Model - INFO - Epoch 11 test Accuracy: 0.770812  Class avg mIOU: 0.329686   Inctance avg mIOU: 0.337128
+2023-05-28 23:03:08,070 - Model - INFO - Best accuracy is: 0.77234
+2023-05-28 23:03:08,070 - Model - INFO - Best class avg mIOU is: 0.47026
+2023-05-28 23:03:08,070 - Model - INFO - Best inctance avg mIOU is: 0.53192
+2023-05-28 23:03:08,070 - Model - INFO - Epoch 12 (12/150):
+2023-05-28 23:03:08,070 - Model - INFO - Learning rate:0.001000
+2023-05-28 23:03:21,846 - Model - INFO - Train accuracy is: 0.79912
+2023-05-28 23:03:23,605 - Model - INFO - eval mIoU of guoshi         0.026661
+2023-05-28 23:03:23,606 - Model - INFO - eval mIoU of shuye          0.559105
+2023-05-28 23:03:23,606 - Model - INFO - eval mIoU of zhigan         0.480498
+2023-05-28 23:03:23,606 - Model - INFO - Epoch 12 test Accuracy: 0.779831  Class avg mIOU: 0.355421   Inctance avg mIOU: 0.451726
+2023-05-28 23:03:23,606 - Model - INFO - Best accuracy is: 0.77983
+2023-05-28 23:03:23,606 - Model - INFO - Best class avg mIOU is: 0.47026
+2023-05-28 23:03:23,606 - Model - INFO - Best inctance avg mIOU is: 0.53192
+2023-05-28 23:03:23,606 - Model - INFO - Epoch 13 (13/150):
+2023-05-28 23:03:23,607 - Model - INFO - Learning rate:0.001000
+2023-05-28 23:03:37,422 - Model - INFO - Train accuracy is: 0.82268
+2023-05-28 23:03:39,141 - Model - INFO - eval mIoU of guoshi         0.101478
+2023-05-28 23:03:39,141 - Model - INFO - eval mIoU of shuye          0.412729
+2023-05-28 23:03:39,141 - Model - INFO - eval mIoU of zhigan         0.673769
+2023-05-28 23:03:39,141 - Model - INFO - Epoch 13 test Accuracy: 0.790770  Class avg mIOU: 0.395992   Inctance avg mIOU: 0.413228
+2023-05-28 23:03:39,141 - Model - INFO - Best accuracy is: 0.79077
+2023-05-28 23:03:39,142 - Model - INFO - Best class avg mIOU is: 0.47026
+2023-05-28 23:03:39,142 - Model - INFO - Best inctance avg mIOU is: 0.53192
+2023-05-28 23:03:39,142 - Model - INFO - Epoch 14 (14/150):
+2023-05-28 23:03:39,142 - Model - INFO - Learning rate:0.001000
+2023-05-28 23:03:52,944 - Model - INFO - Train accuracy is: 0.82845
+2023-05-28 23:03:54,708 - Model - INFO - eval mIoU of guoshi         0.179607
+2023-05-28 23:03:54,708 - Model - INFO - eval mIoU of shuye          0.524231
+2023-05-28 23:03:54,709 - Model - INFO - eval mIoU of zhigan         0.785784
+2023-05-28 23:03:54,709 - Model - INFO - Epoch 14 test Accuracy: 0.805245  Class avg mIOU: 0.496541   Inctance avg mIOU: 0.533772
+2023-05-28 23:03:54,709 - Model - INFO - Save model...
+2023-05-28 23:03:54,709 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg_mysgfpa3/checkpoints/best_model.pth
+2023-05-28 23:03:54,825 - Model - INFO - Saving model....
+2023-05-28 23:03:54,825 - Model - INFO - Best accuracy is: 0.80524
+2023-05-28 23:03:54,825 - Model - INFO - Best class avg mIOU is: 0.49654
+2023-05-28 23:03:54,825 - Model - INFO - Best inctance avg mIOU is: 0.53377
+2023-05-28 23:03:54,825 - Model - INFO - Epoch 15 (15/150):
+2023-05-28 23:03:54,825 - Model - INFO - Learning rate:0.001000
+2023-05-28 23:04:08,689 - Model - INFO - Train accuracy is: 0.83480
+2023-05-28 23:04:10,440 - Model - INFO - eval mIoU of guoshi         0.116126
+2023-05-28 23:04:10,440 - Model - INFO - eval mIoU of shuye          0.555915
+2023-05-28 23:04:10,440 - Model - INFO - eval mIoU of zhigan         0.394101
+2023-05-28 23:04:10,440 - Model - INFO - Epoch 15 test Accuracy: 0.809665  Class avg mIOU: 0.355381   Inctance avg mIOU: 0.409039
+2023-05-28 23:04:10,440 - Model - INFO - Best accuracy is: 0.80967
+2023-05-28 23:04:10,440 - Model - INFO - Best class avg mIOU is: 0.49654
+2023-05-28 23:04:10,440 - Model - INFO - Best inctance avg mIOU is: 0.53377
+2023-05-28 23:04:10,440 - Model - INFO - Epoch 16 (16/150):
+2023-05-28 23:04:10,440 - Model - INFO - Learning rate:0.001000
+2023-05-28 23:04:24,210 - Model - INFO - Train accuracy is: 0.83404
+2023-05-28 23:04:25,934 - Model - INFO - eval mIoU of guoshi         0.101207
+2023-05-28 23:04:25,934 - Model - INFO - eval mIoU of shuye          0.548912
+2023-05-28 23:04:25,934 - Model - INFO - eval mIoU of zhigan         0.600887
+2023-05-28 23:04:25,934 - Model - INFO - Epoch 16 test Accuracy: 0.810761  Class avg mIOU: 0.417002   Inctance avg mIOU: 0.402610
+2023-05-28 23:04:25,934 - Model - INFO - Best accuracy is: 0.81076
+2023-05-28 23:04:25,934 - Model - INFO - Best class avg mIOU is: 0.49654
+2023-05-28 23:04:25,934 - Model - INFO - Best inctance avg mIOU is: 0.53377
+2023-05-28 23:04:25,934 - Model - INFO - Epoch 17 (17/150):
+2023-05-28 23:04:25,934 - Model - INFO - Learning rate:0.001000
+2023-05-28 23:04:39,744 - Model - INFO - Train accuracy is: 0.84574
+2023-05-28 23:04:41,513 - Model - INFO - eval mIoU of guoshi         0.158214
+2023-05-28 23:04:41,513 - Model - INFO - eval mIoU of shuye          0.557688
+2023-05-28 23:04:41,513 - Model - INFO - eval mIoU of zhigan         0.679564
+2023-05-28 23:04:41,513 - Model - INFO - Epoch 17 test Accuracy: 0.824431  Class avg mIOU: 0.465155   Inctance avg mIOU: 0.546517
+2023-05-28 23:04:41,513 - Model - INFO - Save model...
+2023-05-28 23:04:41,513 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg_mysgfpa3/checkpoints/best_model.pth
+2023-05-28 23:04:42,392 - Model - INFO - Saving model....
+2023-05-28 23:04:42,392 - Model - INFO - Best accuracy is: 0.82443
+2023-05-28 23:04:42,392 - Model - INFO - Best class avg mIOU is: 0.49654
+2023-05-28 23:04:42,392 - Model - INFO - Best inctance avg mIOU is: 0.54652
+2023-05-28 23:04:42,392 - Model - INFO - Epoch 18 (18/150):
+2023-05-28 23:04:42,392 - Model - INFO - Learning rate:0.001000
+2023-05-28 23:04:56,176 - Model - INFO - Train accuracy is: 0.85683
+2023-05-28 23:04:57,914 - Model - INFO - eval mIoU of guoshi         0.000000
+2023-05-28 23:04:57,914 - Model - INFO - eval mIoU of shuye          0.569605
+2023-05-28 23:04:57,914 - Model - INFO - eval mIoU of zhigan         0.499203
+2023-05-28 23:04:57,914 - Model - INFO - Epoch 18 test Accuracy: 0.834491  Class avg mIOU: 0.356269   Inctance avg mIOU: 0.509444
+2023-05-28 23:04:57,914 - Model - INFO - Best accuracy is: 0.83449
+2023-05-28 23:04:57,914 - Model - INFO - Best class avg mIOU is: 0.49654
+2023-05-28 23:04:57,914 - Model - INFO - Best inctance avg mIOU is: 0.54652
+2023-05-28 23:04:57,914 - Model - INFO - Epoch 19 (19/150):
+2023-05-28 23:04:57,914 - Model - INFO - Learning rate:0.001000
+2023-05-28 23:05:11,631 - Model - INFO - Train accuracy is: 0.86064
+2023-05-28 23:05:13,370 - Model - INFO - eval mIoU of guoshi         0.241330
+2023-05-28 23:05:13,370 - Model - INFO - eval mIoU of shuye          0.535953
+2023-05-28 23:05:13,370 - Model - INFO - eval mIoU of zhigan         0.620347
+2023-05-28 23:05:13,371 - Model - INFO - Epoch 19 test Accuracy: 0.834622  Class avg mIOU: 0.465877   Inctance avg mIOU: 0.521298
+2023-05-28 23:05:13,371 - Model - INFO - Best accuracy is: 0.83462
+2023-05-28 23:05:13,371 - Model - INFO - Best class avg mIOU is: 0.49654
+2023-05-28 23:05:13,371 - Model - INFO - Best inctance avg mIOU is: 0.54652
+2023-05-28 23:05:13,371 - Model - INFO - Epoch 20 (20/150):
+2023-05-28 23:05:13,371 - Model - INFO - Learning rate:0.001000
+2023-05-28 23:05:27,304 - Model - INFO - Train accuracy is: 0.86687
+2023-05-28 23:05:29,013 - Model - INFO - eval mIoU of guoshi         0.194035
+2023-05-28 23:05:29,013 - Model - INFO - eval mIoU of shuye          0.567336
+2023-05-28 23:05:29,013 - Model - INFO - eval mIoU of zhigan         0.702907
+2023-05-28 23:05:29,013 - Model - INFO - Epoch 20 test Accuracy: 0.842272  Class avg mIOU: 0.488093   Inctance avg mIOU: 0.553683
+2023-05-28 23:05:29,013 - Model - INFO - Save model...
+2023-05-28 23:05:29,013 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg_mysgfpa3/checkpoints/best_model.pth
+2023-05-28 23:05:29,109 - Model - INFO - Saving model....
+2023-05-28 23:05:29,109 - Model - INFO - Best accuracy is: 0.84227
+2023-05-28 23:05:29,109 - Model - INFO - Best class avg mIOU is: 0.49654
+2023-05-28 23:05:29,109 - Model - INFO - Best inctance avg mIOU is: 0.55368
+2023-05-28 23:05:29,109 - Model - INFO - Epoch 21 (21/150):
+2023-05-28 23:05:29,109 - Model - INFO - Learning rate:0.000500
+2023-05-28 23:05:42,733 - Model - INFO - Train accuracy is: 0.87935
+2023-05-28 23:05:44,456 - Model - INFO - eval mIoU of guoshi         0.231057
+2023-05-28 23:05:44,457 - Model - INFO - eval mIoU of shuye          0.579461
+2023-05-28 23:05:44,457 - Model - INFO - eval mIoU of zhigan         0.422951
+2023-05-28 23:05:44,457 - Model - INFO - Epoch 21 test Accuracy: 0.852449  Class avg mIOU: 0.411156   Inctance avg mIOU: 0.455002
+2023-05-28 23:05:44,457 - Model - INFO - Best accuracy is: 0.85245
+2023-05-28 23:05:44,457 - Model - INFO - Best class avg mIOU is: 0.49654
+2023-05-28 23:05:44,457 - Model - INFO - Best inctance avg mIOU is: 0.55368
+2023-05-28 23:05:44,457 - Model - INFO - Epoch 22 (22/150):
+2023-05-28 23:05:44,457 - Model - INFO - Learning rate:0.000500
+2023-05-28 23:05:58,023 - Model - INFO - Train accuracy is: 0.89455
+2023-05-28 23:05:59,733 - Model - INFO - eval mIoU of guoshi         0.186620
+2023-05-28 23:05:59,733 - Model - INFO - eval mIoU of shuye          0.588357
+2023-05-28 23:05:59,733 - Model - INFO - eval mIoU of zhigan         0.530807
+2023-05-28 23:05:59,733 - Model - INFO - Epoch 22 test Accuracy: 0.867413  Class avg mIOU: 0.435262   Inctance avg mIOU: 0.487867
+2023-05-28 23:05:59,733 - Model - INFO - Best accuracy is: 0.86741
+2023-05-28 23:05:59,733 - Model - INFO - Best class avg mIOU is: 0.49654
+2023-05-28 23:05:59,733 - Model - INFO - Best inctance avg mIOU is: 0.55368
+2023-05-28 23:05:59,733 - Model - INFO - Epoch 23 (23/150):
+2023-05-28 23:05:59,733 - Model - INFO - Learning rate:0.000500
+2023-05-28 23:06:13,233 - Model - INFO - Train accuracy is: 0.90392
+2023-05-28 23:06:14,933 - Model - INFO - eval mIoU of guoshi         0.144519
+2023-05-28 23:06:14,933 - Model - INFO - eval mIoU of shuye          0.600360
+2023-05-28 23:06:14,933 - Model - INFO - eval mIoU of zhigan         0.568046
+2023-05-28 23:06:14,933 - Model - INFO - Epoch 23 test Accuracy: 0.879238  Class avg mIOU: 0.437642   Inctance avg mIOU: 0.455529
+2023-05-28 23:06:14,933 - Model - INFO - Best accuracy is: 0.87924
+2023-05-28 23:06:14,933 - Model - INFO - Best class avg mIOU is: 0.49654
+2023-05-28 23:06:14,933 - Model - INFO - Best inctance avg mIOU is: 0.55368
+2023-05-28 23:06:14,933 - Model - INFO - Epoch 24 (24/150):
+2023-05-28 23:06:14,933 - Model - INFO - Learning rate:0.000500
+2023-05-28 23:06:28,495 - Model - INFO - Train accuracy is: 0.90277
+2023-05-28 23:06:30,256 - Model - INFO - eval mIoU of guoshi         0.193351
+2023-05-28 23:06:30,256 - Model - INFO - eval mIoU of shuye          0.588247
+2023-05-28 23:06:30,256 - Model - INFO - eval mIoU of zhigan         0.568040
+2023-05-28 23:06:30,256 - Model - INFO - Epoch 24 test Accuracy: 0.876679  Class avg mIOU: 0.449879   Inctance avg mIOU: 0.519919
+2023-05-28 23:06:30,256 - Model - INFO - Best accuracy is: 0.87924
+2023-05-28 23:06:30,257 - Model - INFO - Best class avg mIOU is: 0.49654
+2023-05-28 23:06:30,257 - Model - INFO - Best inctance avg mIOU is: 0.55368
+2023-05-28 23:06:30,257 - Model - INFO - Epoch 25 (25/150):
+2023-05-28 23:06:30,257 - Model - INFO - Learning rate:0.000500
+2023-05-28 23:06:43,901 - Model - INFO - Train accuracy is: 0.91081
+2023-05-28 23:06:45,625 - Model - INFO - eval mIoU of guoshi         0.291551
+2023-05-28 23:06:45,626 - Model - INFO - eval mIoU of shuye          0.581734
+2023-05-28 23:06:45,626 - Model - INFO - eval mIoU of zhigan         0.718710
+2023-05-28 23:06:45,626 - Model - INFO - Epoch 25 test Accuracy: 0.884109  Class avg mIOU: 0.530665   Inctance avg mIOU: 0.578488
+2023-05-28 23:06:45,626 - Model - INFO - Save model...
+2023-05-28 23:06:45,626 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg_mysgfpa3/checkpoints/best_model.pth
+2023-05-28 23:06:45,726 - Model - INFO - Saving model....
+2023-05-28 23:06:45,726 - Model - INFO - Best accuracy is: 0.88411
+2023-05-28 23:06:45,726 - Model - INFO - Best class avg mIOU is: 0.53067
+2023-05-28 23:06:45,726 - Model - INFO - Best inctance avg mIOU is: 0.57849
+2023-05-28 23:06:45,726 - Model - INFO - Epoch 26 (26/150):
+2023-05-28 23:06:45,726 - Model - INFO - Learning rate:0.000500
+2023-05-28 23:06:59,282 - Model - INFO - Train accuracy is: 0.90832
+2023-05-28 23:07:01,038 - Model - INFO - eval mIoU of guoshi         0.234871
+2023-05-28 23:07:01,038 - Model - INFO - eval mIoU of shuye          0.572026
+2023-05-28 23:07:01,038 - Model - INFO - eval mIoU of zhigan         0.537530
+2023-05-28 23:07:01,038 - Model - INFO - Epoch 26 test Accuracy: 0.879947  Class avg mIOU: 0.448142   Inctance avg mIOU: 0.462255
+2023-05-28 23:07:01,038 - Model - INFO - Best accuracy is: 0.88411
+2023-05-28 23:07:01,038 - Model - INFO - Best class avg mIOU is: 0.53067
+2023-05-28 23:07:01,038 - Model - INFO - Best inctance avg mIOU is: 0.57849
+2023-05-28 23:07:01,038 - Model - INFO - Epoch 27 (27/150):
+2023-05-28 23:07:01,038 - Model - INFO - Learning rate:0.000500
+2023-05-28 23:07:14,626 - Model - INFO - Train accuracy is: 0.90947
+2023-05-28 23:07:16,364 - Model - INFO - eval mIoU of guoshi         0.177119
+2023-05-28 23:07:16,365 - Model - INFO - eval mIoU of shuye          0.606289
+2023-05-28 23:07:16,365 - Model - INFO - eval mIoU of zhigan         0.794286
+2023-05-28 23:07:16,365 - Model - INFO - Epoch 27 test Accuracy: 0.883332  Class avg mIOU: 0.525898   Inctance avg mIOU: 0.579513
+2023-05-28 23:07:16,365 - Model - INFO - Save model...
+2023-05-28 23:07:16,365 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg_mysgfpa3/checkpoints/best_model.pth
+2023-05-28 23:07:16,465 - Model - INFO - Saving model....
+2023-05-28 23:07:16,466 - Model - INFO - Best accuracy is: 0.88411
+2023-05-28 23:07:16,466 - Model - INFO - Best class avg mIOU is: 0.53067
+2023-05-28 23:07:16,466 - Model - INFO - Best inctance avg mIOU is: 0.57951
+2023-05-28 23:07:16,466 - Model - INFO - Epoch 28 (28/150):
+2023-05-28 23:07:16,466 - Model - INFO - Learning rate:0.000500
+2023-05-28 23:07:30,001 - Model - INFO - Train accuracy is: 0.90855
+2023-05-28 23:07:31,740 - Model - INFO - eval mIoU of guoshi         0.238789
+2023-05-28 23:07:31,740 - Model - INFO - eval mIoU of shuye          0.606356
+2023-05-28 23:07:31,741 - Model - INFO - eval mIoU of zhigan         0.779743
+2023-05-28 23:07:31,741 - Model - INFO - Epoch 28 test Accuracy: 0.882183  Class avg mIOU: 0.541629   Inctance avg mIOU: 0.565441
+2023-05-28 23:07:31,741 - Model - INFO - Best accuracy is: 0.88411
+2023-05-28 23:07:31,741 - Model - INFO - Best class avg mIOU is: 0.54163
+2023-05-28 23:07:31,741 - Model - INFO - Best inctance avg mIOU is: 0.57951
+2023-05-28 23:07:31,741 - Model - INFO - Epoch 29 (29/150):
+2023-05-28 23:07:31,741 - Model - INFO - Learning rate:0.000500
+2023-05-28 23:07:45,354 - Model - INFO - Train accuracy is: 0.91511
+2023-05-28 23:07:47,072 - Model - INFO - eval mIoU of guoshi         0.062408
+2023-05-28 23:07:47,072 - Model - INFO - eval mIoU of shuye          0.511594
+2023-05-28 23:07:47,072 - Model - INFO - eval mIoU of zhigan         0.576889
+2023-05-28 23:07:47,072 - Model - INFO - Epoch 29 test Accuracy: 0.883499  Class avg mIOU: 0.383630   Inctance avg mIOU: 0.428680
+2023-05-28 23:07:47,072 - Model - INFO - Best accuracy is: 0.88411
+2023-05-28 23:07:47,072 - Model - INFO - Best class avg mIOU is: 0.54163
+2023-05-28 23:07:47,072 - Model - INFO - Best inctance avg mIOU is: 0.57951
+2023-05-28 23:07:47,072 - Model - INFO - Epoch 30 (30/150):
+2023-05-28 23:07:47,072 - Model - INFO - Learning rate:0.000500
+2023-05-28 23:08:00,650 - Model - INFO - Train accuracy is: 0.91349
+2023-05-28 23:08:02,359 - Model - INFO - eval mIoU of guoshi         0.260714
+2023-05-28 23:08:02,359 - Model - INFO - eval mIoU of shuye          0.566767
+2023-05-28 23:08:02,360 - Model - INFO - eval mIoU of zhigan         0.644848
+2023-05-28 23:08:02,360 - Model - INFO - Epoch 30 test Accuracy: 0.884203  Class avg mIOU: 0.490776   Inctance avg mIOU: 0.505870
+2023-05-28 23:08:02,360 - Model - INFO - Best accuracy is: 0.88420
+2023-05-28 23:08:02,360 - Model - INFO - Best class avg mIOU is: 0.54163
+2023-05-28 23:08:02,360 - Model - INFO - Best inctance avg mIOU is: 0.57951
+2023-05-28 23:08:02,360 - Model - INFO - Epoch 31 (31/150):
+2023-05-28 23:08:02,360 - Model - INFO - Learning rate:0.000500
+2023-05-28 23:08:16,060 - Model - INFO - Train accuracy is: 0.91874
+2023-05-28 23:08:17,790 - Model - INFO - eval mIoU of guoshi         0.281881
+2023-05-28 23:08:17,790 - Model - INFO - eval mIoU of shuye          0.559977
+2023-05-28 23:08:17,790 - Model - INFO - eval mIoU of zhigan         0.706600
+2023-05-28 23:08:17,790 - Model - INFO - Epoch 31 test Accuracy: 0.889526  Class avg mIOU: 0.516153   Inctance avg mIOU: 0.555676
+2023-05-28 23:08:17,790 - Model - INFO - Best accuracy is: 0.88953
+2023-05-28 23:08:17,790 - Model - INFO - Best class avg mIOU is: 0.54163
+2023-05-28 23:08:17,790 - Model - INFO - Best inctance avg mIOU is: 0.57951
+2023-05-28 23:08:17,790 - Model - INFO - Epoch 32 (32/150):
+2023-05-28 23:08:17,790 - Model - INFO - Learning rate:0.000500
+2023-05-28 23:08:31,595 - Model - INFO - Train accuracy is: 0.92231
+2023-05-28 23:08:33,354 - Model - INFO - eval mIoU of guoshi         0.324231
+2023-05-28 23:08:33,354 - Model - INFO - eval mIoU of shuye          0.604767
+2023-05-28 23:08:33,354 - Model - INFO - eval mIoU of zhigan         0.774340
+2023-05-28 23:08:33,354 - Model - INFO - Epoch 32 test Accuracy: 0.896266  Class avg mIOU: 0.567780   Inctance avg mIOU: 0.605080
+2023-05-28 23:08:33,354 - Model - INFO - Save model...
+2023-05-28 23:08:33,354 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg_mysgfpa3/checkpoints/best_model.pth
+2023-05-28 23:08:33,451 - Model - INFO - Saving model....
+2023-05-28 23:08:33,451 - Model - INFO - Best accuracy is: 0.89627
+2023-05-28 23:08:33,451 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:08:33,452 - Model - INFO - Best inctance avg mIOU is: 0.60508
+2023-05-28 23:08:33,452 - Model - INFO - Epoch 33 (33/150):
+2023-05-28 23:08:33,452 - Model - INFO - Learning rate:0.000500
+2023-05-28 23:08:47,241 - Model - INFO - Train accuracy is: 0.91788
+2023-05-28 23:08:48,977 - Model - INFO - eval mIoU of guoshi         0.365457
+2023-05-28 23:08:48,977 - Model - INFO - eval mIoU of shuye          0.587254
+2023-05-28 23:08:48,977 - Model - INFO - eval mIoU of zhigan         0.563838
+2023-05-28 23:08:48,977 - Model - INFO - Epoch 33 test Accuracy: 0.892862  Class avg mIOU: 0.505516   Inctance avg mIOU: 0.543447
+2023-05-28 23:08:48,977 - Model - INFO - Best accuracy is: 0.89627
+2023-05-28 23:08:48,978 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:08:48,978 - Model - INFO - Best inctance avg mIOU is: 0.60508
+2023-05-28 23:08:48,978 - Model - INFO - Epoch 34 (34/150):
+2023-05-28 23:08:48,978 - Model - INFO - Learning rate:0.000500
+2023-05-28 23:09:02,775 - Model - INFO - Train accuracy is: 0.92315
+2023-05-28 23:09:04,535 - Model - INFO - eval mIoU of guoshi         0.394408
+2023-05-28 23:09:04,535 - Model - INFO - eval mIoU of shuye          0.586696
+2023-05-28 23:09:04,535 - Model - INFO - eval mIoU of zhigan         0.616649
+2023-05-28 23:09:04,535 - Model - INFO - Epoch 34 test Accuracy: 0.895587  Class avg mIOU: 0.532584   Inctance avg mIOU: 0.580946
+2023-05-28 23:09:04,535 - Model - INFO - Best accuracy is: 0.89627
+2023-05-28 23:09:04,536 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:09:04,536 - Model - INFO - Best inctance avg mIOU is: 0.60508
+2023-05-28 23:09:04,536 - Model - INFO - Epoch 35 (35/150):
+2023-05-28 23:09:04,536 - Model - INFO - Learning rate:0.000500
+2023-05-28 23:09:18,299 - Model - INFO - Train accuracy is: 0.92926
+2023-05-28 23:09:20,064 - Model - INFO - eval mIoU of guoshi         0.091360
+2023-05-28 23:09:20,065 - Model - INFO - eval mIoU of shuye          0.648779
+2023-05-28 23:09:20,065 - Model - INFO - eval mIoU of zhigan         0.671029
+2023-05-28 23:09:20,065 - Model - INFO - Epoch 35 test Accuracy: 0.901689  Class avg mIOU: 0.470389   Inctance avg mIOU: 0.547308
+2023-05-28 23:09:20,065 - Model - INFO - Best accuracy is: 0.90169
+2023-05-28 23:09:20,065 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:09:20,065 - Model - INFO - Best inctance avg mIOU is: 0.60508
+2023-05-28 23:09:20,065 - Model - INFO - Epoch 36 (36/150):
+2023-05-28 23:09:20,065 - Model - INFO - Learning rate:0.000500
+2023-05-28 23:09:33,751 - Model - INFO - Train accuracy is: 0.93090
+2023-05-28 23:09:35,477 - Model - INFO - eval mIoU of guoshi         0.229861
+2023-05-28 23:09:35,477 - Model - INFO - eval mIoU of shuye          0.582503
+2023-05-28 23:09:35,477 - Model - INFO - eval mIoU of zhigan         0.564877
+2023-05-28 23:09:35,477 - Model - INFO - Epoch 36 test Accuracy: 0.900933  Class avg mIOU: 0.459081   Inctance avg mIOU: 0.485530
+2023-05-28 23:09:35,477 - Model - INFO - Best accuracy is: 0.90169
+2023-05-28 23:09:35,477 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:09:35,477 - Model - INFO - Best inctance avg mIOU is: 0.60508
+2023-05-28 23:09:35,477 - Model - INFO - Epoch 37 (37/150):
+2023-05-28 23:09:35,477 - Model - INFO - Learning rate:0.000500
+2023-05-28 23:09:49,221 - Model - INFO - Train accuracy is: 0.92886
+2023-05-28 23:09:50,956 - Model - INFO - eval mIoU of guoshi         0.270651
+2023-05-28 23:09:50,956 - Model - INFO - eval mIoU of shuye          0.588119
+2023-05-28 23:09:50,956 - Model - INFO - eval mIoU of zhigan         0.760150
+2023-05-28 23:09:50,956 - Model - INFO - Epoch 37 test Accuracy: 0.901772  Class avg mIOU: 0.539640   Inctance avg mIOU: 0.626514
+2023-05-28 23:09:50,957 - Model - INFO - Save model...
+2023-05-28 23:09:50,957 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg_mysgfpa3/checkpoints/best_model.pth
+2023-05-28 23:09:51,057 - Model - INFO - Saving model....
+2023-05-28 23:09:51,057 - Model - INFO - Best accuracy is: 0.90177
+2023-05-28 23:09:51,058 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:09:51,058 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:09:51,058 - Model - INFO - Epoch 38 (38/150):
+2023-05-28 23:09:51,058 - Model - INFO - Learning rate:0.000500
+2023-05-28 23:10:04,895 - Model - INFO - Train accuracy is: 0.93233
+2023-05-28 23:10:06,665 - Model - INFO - eval mIoU of guoshi         0.295942
+2023-05-28 23:10:06,666 - Model - INFO - eval mIoU of shuye          0.587414
+2023-05-28 23:10:06,666 - Model - INFO - eval mIoU of zhigan         0.712195
+2023-05-28 23:10:06,666 - Model - INFO - Epoch 38 test Accuracy: 0.903373  Class avg mIOU: 0.531850   Inctance avg mIOU: 0.566554
+2023-05-28 23:10:06,666 - Model - INFO - Best accuracy is: 0.90337
+2023-05-28 23:10:06,666 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:10:06,666 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:10:06,666 - Model - INFO - Epoch 39 (39/150):
+2023-05-28 23:10:06,666 - Model - INFO - Learning rate:0.000500
+2023-05-28 23:10:20,356 - Model - INFO - Train accuracy is: 0.93286
+2023-05-28 23:10:22,101 - Model - INFO - eval mIoU of guoshi         0.218383
+2023-05-28 23:10:22,101 - Model - INFO - eval mIoU of shuye          0.574456
+2023-05-28 23:10:22,102 - Model - INFO - eval mIoU of zhigan         0.566211
+2023-05-28 23:10:22,102 - Model - INFO - Epoch 39 test Accuracy: 0.900332  Class avg mIOU: 0.453017   Inctance avg mIOU: 0.464336
+2023-05-28 23:10:22,102 - Model - INFO - Best accuracy is: 0.90337
+2023-05-28 23:10:22,102 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:10:22,102 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:10:22,102 - Model - INFO - Epoch 40 (40/150):
+2023-05-28 23:10:22,102 - Model - INFO - Learning rate:0.000500
+2023-05-28 23:10:35,863 - Model - INFO - Train accuracy is: 0.92789
+2023-05-28 23:10:37,615 - Model - INFO - eval mIoU of guoshi         0.258506
+2023-05-28 23:10:37,615 - Model - INFO - eval mIoU of shuye          0.609983
+2023-05-28 23:10:37,615 - Model - INFO - eval mIoU of zhigan         0.541609
+2023-05-28 23:10:37,615 - Model - INFO - Epoch 40 test Accuracy: 0.899112  Class avg mIOU: 0.470032   Inctance avg mIOU: 0.523074
+2023-05-28 23:10:37,615 - Model - INFO - Best accuracy is: 0.90337
+2023-05-28 23:10:37,615 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:10:37,615 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:10:37,615 - Model - INFO - Epoch 41 (41/150):
+2023-05-28 23:10:37,615 - Model - INFO - Learning rate:0.000250
+2023-05-28 23:10:51,350 - Model - INFO - Train accuracy is: 0.93686
+2023-05-28 23:10:53,087 - Model - INFO - eval mIoU of guoshi         0.203697
+2023-05-28 23:10:53,087 - Model - INFO - eval mIoU of shuye          0.612818
+2023-05-28 23:10:53,087 - Model - INFO - eval mIoU of zhigan         0.723478
+2023-05-28 23:10:53,087 - Model - INFO - Epoch 41 test Accuracy: 0.909027  Class avg mIOU: 0.513331   Inctance avg mIOU: 0.584648
+2023-05-28 23:10:53,087 - Model - INFO - Best accuracy is: 0.90903
+2023-05-28 23:10:53,088 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:10:53,088 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:10:53,088 - Model - INFO - Epoch 42 (42/150):
+2023-05-28 23:10:53,088 - Model - INFO - Learning rate:0.000250
+2023-05-28 23:11:06,849 - Model - INFO - Train accuracy is: 0.94555
+2023-05-28 23:11:08,596 - Model - INFO - eval mIoU of guoshi         0.220433
+2023-05-28 23:11:08,597 - Model - INFO - eval mIoU of shuye          0.602370
+2023-05-28 23:11:08,597 - Model - INFO - eval mIoU of zhigan         0.585256
+2023-05-28 23:11:08,597 - Model - INFO - Epoch 42 test Accuracy: 0.915898  Class avg mIOU: 0.469353   Inctance avg mIOU: 0.537378
+2023-05-28 23:11:08,597 - Model - INFO - Best accuracy is: 0.91590
+2023-05-28 23:11:08,597 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:11:08,597 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:11:08,597 - Model - INFO - Epoch 43 (43/150):
+2023-05-28 23:11:08,597 - Model - INFO - Learning rate:0.000250
+2023-05-28 23:11:22,316 - Model - INFO - Train accuracy is: 0.94785
+2023-05-28 23:11:24,071 - Model - INFO - eval mIoU of guoshi         0.275563
+2023-05-28 23:11:24,071 - Model - INFO - eval mIoU of shuye          0.588749
+2023-05-28 23:11:24,071 - Model - INFO - eval mIoU of zhigan         0.759684
+2023-05-28 23:11:24,071 - Model - INFO - Epoch 43 test Accuracy: 0.919464  Class avg mIOU: 0.541332   Inctance avg mIOU: 0.587373
+2023-05-28 23:11:24,071 - Model - INFO - Best accuracy is: 0.91946
+2023-05-28 23:11:24,071 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:11:24,071 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:11:24,071 - Model - INFO - Epoch 44 (44/150):
+2023-05-28 23:11:24,071 - Model - INFO - Learning rate:0.000250
+2023-05-28 23:11:37,734 - Model - INFO - Train accuracy is: 0.94589
+2023-05-28 23:11:39,491 - Model - INFO - eval mIoU of guoshi         0.185733
+2023-05-28 23:11:39,491 - Model - INFO - eval mIoU of shuye          0.616073
+2023-05-28 23:11:39,491 - Model - INFO - eval mIoU of zhigan         0.594690
+2023-05-28 23:11:39,491 - Model - INFO - Epoch 44 test Accuracy: 0.915813  Class avg mIOU: 0.465498   Inctance avg mIOU: 0.521452
+2023-05-28 23:11:39,491 - Model - INFO - Best accuracy is: 0.91946
+2023-05-28 23:11:39,491 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:11:39,491 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:11:39,491 - Model - INFO - Epoch 45 (45/150):
+2023-05-28 23:11:39,491 - Model - INFO - Learning rate:0.000250
+2023-05-28 23:11:53,208 - Model - INFO - Train accuracy is: 0.95050
+2023-05-28 23:11:54,941 - Model - INFO - eval mIoU of guoshi         0.233071
+2023-05-28 23:11:54,941 - Model - INFO - eval mIoU of shuye          0.555389
+2023-05-28 23:11:54,941 - Model - INFO - eval mIoU of zhigan         0.689910
+2023-05-28 23:11:54,941 - Model - INFO - Epoch 45 test Accuracy: 0.917877  Class avg mIOU: 0.492790   Inctance avg mIOU: 0.519228
+2023-05-28 23:11:54,941 - Model - INFO - Best accuracy is: 0.91946
+2023-05-28 23:11:54,941 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:11:54,941 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:11:54,941 - Model - INFO - Epoch 46 (46/150):
+2023-05-28 23:11:54,941 - Model - INFO - Learning rate:0.000250
+2023-05-28 23:12:08,627 - Model - INFO - Train accuracy is: 0.95328
+2023-05-28 23:12:10,370 - Model - INFO - eval mIoU of guoshi         0.224755
+2023-05-28 23:12:10,370 - Model - INFO - eval mIoU of shuye          0.557692
+2023-05-28 23:12:10,370 - Model - INFO - eval mIoU of zhigan         0.705596
+2023-05-28 23:12:10,370 - Model - INFO - Epoch 46 test Accuracy: 0.921115  Class avg mIOU: 0.496014   Inctance avg mIOU: 0.511434
+2023-05-28 23:12:10,370 - Model - INFO - Best accuracy is: 0.92112
+2023-05-28 23:12:10,370 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:12:10,370 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:12:10,370 - Model - INFO - Epoch 47 (47/150):
+2023-05-28 23:12:10,370 - Model - INFO - Learning rate:0.000250
+2023-05-28 23:12:24,135 - Model - INFO - Train accuracy is: 0.95325
+2023-05-28 23:12:25,886 - Model - INFO - eval mIoU of guoshi         0.272006
+2023-05-28 23:12:25,886 - Model - INFO - eval mIoU of shuye          0.561542
+2023-05-28 23:12:25,886 - Model - INFO - eval mIoU of zhigan         0.649934
+2023-05-28 23:12:25,886 - Model - INFO - Epoch 47 test Accuracy: 0.922538  Class avg mIOU: 0.494494   Inctance avg mIOU: 0.586842
+2023-05-28 23:12:25,886 - Model - INFO - Best accuracy is: 0.92254
+2023-05-28 23:12:25,886 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:12:25,886 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:12:25,886 - Model - INFO - Epoch 48 (48/150):
+2023-05-28 23:12:25,886 - Model - INFO - Learning rate:0.000250
+2023-05-28 23:12:39,623 - Model - INFO - Train accuracy is: 0.95261
+2023-05-28 23:12:41,398 - Model - INFO - eval mIoU of guoshi         0.174490
+2023-05-28 23:12:41,398 - Model - INFO - eval mIoU of shuye          0.590734
+2023-05-28 23:12:41,398 - Model - INFO - eval mIoU of zhigan         0.654729
+2023-05-28 23:12:41,398 - Model - INFO - Epoch 48 test Accuracy: 0.920805  Class avg mIOU: 0.473318   Inctance avg mIOU: 0.574708
+2023-05-28 23:12:41,399 - Model - INFO - Best accuracy is: 0.92254
+2023-05-28 23:12:41,399 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:12:41,399 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:12:41,399 - Model - INFO - Epoch 49 (49/150):
+2023-05-28 23:12:41,399 - Model - INFO - Learning rate:0.000250
+2023-05-28 23:12:55,144 - Model - INFO - Train accuracy is: 0.95397
+2023-05-28 23:12:56,892 - Model - INFO - eval mIoU of guoshi         0.182514
+2023-05-28 23:12:56,892 - Model - INFO - eval mIoU of shuye          0.599308
+2023-05-28 23:12:56,893 - Model - INFO - eval mIoU of zhigan         0.566113
+2023-05-28 23:12:56,893 - Model - INFO - Epoch 49 test Accuracy: 0.922889  Class avg mIOU: 0.449312   Inctance avg mIOU: 0.507651
+2023-05-28 23:12:56,893 - Model - INFO - Best accuracy is: 0.92289
+2023-05-28 23:12:56,893 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:12:56,893 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:12:56,893 - Model - INFO - Epoch 50 (50/150):
+2023-05-28 23:12:56,893 - Model - INFO - Learning rate:0.000250
+2023-05-28 23:13:10,638 - Model - INFO - Train accuracy is: 0.95505
+2023-05-28 23:13:12,379 - Model - INFO - eval mIoU of guoshi         0.246302
+2023-05-28 23:13:12,379 - Model - INFO - eval mIoU of shuye          0.560169
+2023-05-28 23:13:12,379 - Model - INFO - eval mIoU of zhigan         0.726386
+2023-05-28 23:13:12,379 - Model - INFO - Epoch 50 test Accuracy: 0.923328  Class avg mIOU: 0.510952   Inctance avg mIOU: 0.532496
+2023-05-28 23:13:12,379 - Model - INFO - Best accuracy is: 0.92333
+2023-05-28 23:13:12,379 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:13:12,379 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:13:12,379 - Model - INFO - Epoch 51 (51/150):
+2023-05-28 23:13:12,379 - Model - INFO - Learning rate:0.000250
+2023-05-28 23:13:26,956 - Model - INFO - Train accuracy is: 0.95374
+2023-05-28 23:13:28,728 - Model - INFO - eval mIoU of guoshi         0.188003
+2023-05-28 23:13:28,729 - Model - INFO - eval mIoU of shuye          0.592891
+2023-05-28 23:13:28,729 - Model - INFO - eval mIoU of zhigan         0.499277
+2023-05-28 23:13:28,729 - Model - INFO - Epoch 51 test Accuracy: 0.921414  Class avg mIOU: 0.426724   Inctance avg mIOU: 0.474468
+2023-05-28 23:13:28,729 - Model - INFO - Best accuracy is: 0.92333
+2023-05-28 23:13:28,729 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:13:28,729 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:13:28,729 - Model - INFO - Epoch 52 (52/150):
+2023-05-28 23:13:28,729 - Model - INFO - Learning rate:0.000250
+2023-05-28 23:13:42,475 - Model - INFO - Train accuracy is: 0.95577
+2023-05-28 23:13:44,255 - Model - INFO - eval mIoU of guoshi         0.087012
+2023-05-28 23:13:44,255 - Model - INFO - eval mIoU of shuye          0.609218
+2023-05-28 23:13:44,255 - Model - INFO - eval mIoU of zhigan         0.739237
+2023-05-28 23:13:44,255 - Model - INFO - Epoch 52 test Accuracy: 0.923571  Class avg mIOU: 0.478489   Inctance avg mIOU: 0.582895
+2023-05-28 23:13:44,255 - Model - INFO - Best accuracy is: 0.92357
+2023-05-28 23:13:44,255 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:13:44,255 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:13:44,255 - Model - INFO - Epoch 53 (53/150):
+2023-05-28 23:13:44,255 - Model - INFO - Learning rate:0.000250
+2023-05-28 23:13:58,046 - Model - INFO - Train accuracy is: 0.95643
+2023-05-28 23:13:59,779 - Model - INFO - eval mIoU of guoshi         0.294906
+2023-05-28 23:13:59,779 - Model - INFO - eval mIoU of shuye          0.582666
+2023-05-28 23:13:59,779 - Model - INFO - eval mIoU of zhigan         0.706183
+2023-05-28 23:13:59,779 - Model - INFO - Epoch 53 test Accuracy: 0.924619  Class avg mIOU: 0.527918   Inctance avg mIOU: 0.570381
+2023-05-28 23:13:59,779 - Model - INFO - Best accuracy is: 0.92462
+2023-05-28 23:13:59,779 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:13:59,780 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:13:59,780 - Model - INFO - Epoch 54 (54/150):
+2023-05-28 23:13:59,780 - Model - INFO - Learning rate:0.000250
+2023-05-28 23:14:13,492 - Model - INFO - Train accuracy is: 0.95791
+2023-05-28 23:14:15,230 - Model - INFO - eval mIoU of guoshi         0.191490
+2023-05-28 23:14:15,231 - Model - INFO - eval mIoU of shuye          0.589293
+2023-05-28 23:14:15,231 - Model - INFO - eval mIoU of zhigan         0.582357
+2023-05-28 23:14:15,231 - Model - INFO - Epoch 54 test Accuracy: 0.926518  Class avg mIOU: 0.454380   Inctance avg mIOU: 0.487068
+2023-05-28 23:14:15,231 - Model - INFO - Best accuracy is: 0.92652
+2023-05-28 23:14:15,231 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:14:15,231 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:14:15,231 - Model - INFO - Epoch 55 (55/150):
+2023-05-28 23:14:15,231 - Model - INFO - Learning rate:0.000250
+2023-05-28 23:14:28,920 - Model - INFO - Train accuracy is: 0.95655
+2023-05-28 23:14:30,671 - Model - INFO - eval mIoU of guoshi         0.236567
+2023-05-28 23:14:30,671 - Model - INFO - eval mIoU of shuye          0.587617
+2023-05-28 23:14:30,671 - Model - INFO - eval mIoU of zhigan         0.762821
+2023-05-28 23:14:30,671 - Model - INFO - Epoch 55 test Accuracy: 0.923919  Class avg mIOU: 0.529001   Inctance avg mIOU: 0.508614
+2023-05-28 23:14:30,671 - Model - INFO - Best accuracy is: 0.92652
+2023-05-28 23:14:30,671 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:14:30,671 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:14:30,671 - Model - INFO - Epoch 56 (56/150):
+2023-05-28 23:14:30,671 - Model - INFO - Learning rate:0.000250
+2023-05-28 23:14:44,389 - Model - INFO - Train accuracy is: 0.95754
+2023-05-28 23:14:46,172 - Model - INFO - eval mIoU of guoshi         0.315527
+2023-05-28 23:14:46,172 - Model - INFO - eval mIoU of shuye          0.578546
+2023-05-28 23:14:46,172 - Model - INFO - eval mIoU of zhigan         0.472465
+2023-05-28 23:14:46,172 - Model - INFO - Epoch 56 test Accuracy: 0.926781  Class avg mIOU: 0.455513   Inctance avg mIOU: 0.465055
+2023-05-28 23:14:46,172 - Model - INFO - Best accuracy is: 0.92678
+2023-05-28 23:14:46,172 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:14:46,172 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:14:46,172 - Model - INFO - Epoch 57 (57/150):
+2023-05-28 23:14:46,172 - Model - INFO - Learning rate:0.000250
+2023-05-28 23:14:59,945 - Model - INFO - Train accuracy is: 0.95747
+2023-05-28 23:15:01,714 - Model - INFO - eval mIoU of guoshi         0.199155
+2023-05-28 23:15:01,714 - Model - INFO - eval mIoU of shuye          0.598418
+2023-05-28 23:15:01,714 - Model - INFO - eval mIoU of zhigan         0.658448
+2023-05-28 23:15:01,714 - Model - INFO - Epoch 57 test Accuracy: 0.926120  Class avg mIOU: 0.485340   Inctance avg mIOU: 0.542577
+2023-05-28 23:15:01,714 - Model - INFO - Best accuracy is: 0.92678
+2023-05-28 23:15:01,714 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:15:01,714 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:15:01,714 - Model - INFO - Epoch 58 (58/150):
+2023-05-28 23:15:01,714 - Model - INFO - Learning rate:0.000250
+2023-05-28 23:15:15,487 - Model - INFO - Train accuracy is: 0.95992
+2023-05-28 23:15:17,242 - Model - INFO - eval mIoU of guoshi         0.280189
+2023-05-28 23:15:17,242 - Model - INFO - eval mIoU of shuye          0.575088
+2023-05-28 23:15:17,242 - Model - INFO - eval mIoU of zhigan         0.551287
+2023-05-28 23:15:17,242 - Model - INFO - Epoch 58 test Accuracy: 0.927237  Class avg mIOU: 0.468855   Inctance avg mIOU: 0.534888
+2023-05-28 23:15:17,242 - Model - INFO - Best accuracy is: 0.92724
+2023-05-28 23:15:17,242 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:15:17,242 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:15:17,242 - Model - INFO - Epoch 59 (59/150):
+2023-05-28 23:15:17,242 - Model - INFO - Learning rate:0.000250
+2023-05-28 23:15:30,954 - Model - INFO - Train accuracy is: 0.95769
+2023-05-28 23:15:32,692 - Model - INFO - eval mIoU of guoshi         0.102821
+2023-05-28 23:15:32,693 - Model - INFO - eval mIoU of shuye          0.610827
+2023-05-28 23:15:32,693 - Model - INFO - eval mIoU of zhigan         0.669892
+2023-05-28 23:15:32,693 - Model - INFO - Epoch 59 test Accuracy: 0.924871  Class avg mIOU: 0.461180   Inctance avg mIOU: 0.558252
+2023-05-28 23:15:32,693 - Model - INFO - Best accuracy is: 0.92724
+2023-05-28 23:15:32,693 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:15:32,693 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:15:32,693 - Model - INFO - Epoch 60 (60/150):
+2023-05-28 23:15:32,693 - Model - INFO - Learning rate:0.000250
+2023-05-28 23:15:46,465 - Model - INFO - Train accuracy is: 0.95873
+2023-05-28 23:15:48,194 - Model - INFO - eval mIoU of guoshi         0.226735
+2023-05-28 23:15:48,194 - Model - INFO - eval mIoU of shuye          0.623380
+2023-05-28 23:15:48,194 - Model - INFO - eval mIoU of zhigan         0.690913
+2023-05-28 23:15:48,194 - Model - INFO - Epoch 60 test Accuracy: 0.927923  Class avg mIOU: 0.513676   Inctance avg mIOU: 0.574441
+2023-05-28 23:15:48,195 - Model - INFO - Best accuracy is: 0.92792
+2023-05-28 23:15:48,195 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:15:48,195 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:15:48,195 - Model - INFO - Epoch 61 (61/150):
+2023-05-28 23:15:48,195 - Model - INFO - Learning rate:0.000125
+2023-05-28 23:16:01,897 - Model - INFO - Train accuracy is: 0.96213
+2023-05-28 23:16:03,637 - Model - INFO - eval mIoU of guoshi         0.226078
+2023-05-28 23:16:03,637 - Model - INFO - eval mIoU of shuye          0.565768
+2023-05-28 23:16:03,637 - Model - INFO - eval mIoU of zhigan         0.669128
+2023-05-28 23:16:03,637 - Model - INFO - Epoch 61 test Accuracy: 0.931048  Class avg mIOU: 0.486991   Inctance avg mIOU: 0.581999
+2023-05-28 23:16:03,638 - Model - INFO - Best accuracy is: 0.93105
+2023-05-28 23:16:03,638 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:16:03,638 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:16:03,638 - Model - INFO - Epoch 62 (62/150):
+2023-05-28 23:16:03,638 - Model - INFO - Learning rate:0.000125
+2023-05-28 23:16:17,321 - Model - INFO - Train accuracy is: 0.96425
+2023-05-28 23:16:19,049 - Model - INFO - eval mIoU of guoshi         0.193394
+2023-05-28 23:16:19,049 - Model - INFO - eval mIoU of shuye          0.598244
+2023-05-28 23:16:19,049 - Model - INFO - eval mIoU of zhigan         0.760133
+2023-05-28 23:16:19,049 - Model - INFO - Epoch 62 test Accuracy: 0.932260  Class avg mIOU: 0.517257   Inctance avg mIOU: 0.594178
+2023-05-28 23:16:19,049 - Model - INFO - Best accuracy is: 0.93226
+2023-05-28 23:16:19,049 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:16:19,049 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:16:19,050 - Model - INFO - Epoch 63 (63/150):
+2023-05-28 23:16:19,050 - Model - INFO - Learning rate:0.000125
+2023-05-28 23:16:32,762 - Model - INFO - Train accuracy is: 0.96205
+2023-05-28 23:16:34,518 - Model - INFO - eval mIoU of guoshi         0.122102
+2023-05-28 23:16:34,518 - Model - INFO - eval mIoU of shuye          0.587394
+2023-05-28 23:16:34,519 - Model - INFO - eval mIoU of zhigan         0.793909
+2023-05-28 23:16:34,519 - Model - INFO - Epoch 63 test Accuracy: 0.929247  Class avg mIOU: 0.501135   Inctance avg mIOU: 0.626084
+2023-05-28 23:16:34,519 - Model - INFO - Best accuracy is: 0.93226
+2023-05-28 23:16:34,519 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:16:34,519 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:16:34,519 - Model - INFO - Epoch 64 (64/150):
+2023-05-28 23:16:34,519 - Model - INFO - Learning rate:0.000125
+2023-05-28 23:16:48,247 - Model - INFO - Train accuracy is: 0.96326
+2023-05-28 23:16:50,021 - Model - INFO - eval mIoU of guoshi         0.263684
+2023-05-28 23:16:50,021 - Model - INFO - eval mIoU of shuye          0.594257
+2023-05-28 23:16:50,021 - Model - INFO - eval mIoU of zhigan         0.690465
+2023-05-28 23:16:50,021 - Model - INFO - Epoch 64 test Accuracy: 0.931829  Class avg mIOU: 0.516135   Inctance avg mIOU: 0.566625
+2023-05-28 23:16:50,021 - Model - INFO - Best accuracy is: 0.93226
+2023-05-28 23:16:50,021 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:16:50,021 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:16:50,021 - Model - INFO - Epoch 65 (65/150):
+2023-05-28 23:16:50,021 - Model - INFO - Learning rate:0.000125
+2023-05-28 23:17:03,807 - Model - INFO - Train accuracy is: 0.96515
+2023-05-28 23:17:05,574 - Model - INFO - eval mIoU of guoshi         0.289809
+2023-05-28 23:17:05,575 - Model - INFO - eval mIoU of shuye          0.562636
+2023-05-28 23:17:05,575 - Model - INFO - eval mIoU of zhigan         0.738996
+2023-05-28 23:17:05,575 - Model - INFO - Epoch 65 test Accuracy: 0.931700  Class avg mIOU: 0.530480   Inctance avg mIOU: 0.614715
+2023-05-28 23:17:05,575 - Model - INFO - Best accuracy is: 0.93226
+2023-05-28 23:17:05,575 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:17:05,575 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:17:05,576 - Model - INFO - Epoch 66 (66/150):
+2023-05-28 23:17:05,576 - Model - INFO - Learning rate:0.000125
+2023-05-28 23:17:19,257 - Model - INFO - Train accuracy is: 0.96353
+2023-05-28 23:17:20,980 - Model - INFO - eval mIoU of guoshi         0.388203
+2023-05-28 23:17:20,980 - Model - INFO - eval mIoU of shuye          0.586055
+2023-05-28 23:17:20,980 - Model - INFO - eval mIoU of zhigan         0.582989
+2023-05-28 23:17:20,980 - Model - INFO - Epoch 66 test Accuracy: 0.930213  Class avg mIOU: 0.519082   Inctance avg mIOU: 0.564583
+2023-05-28 23:17:20,980 - Model - INFO - Best accuracy is: 0.93226
+2023-05-28 23:17:20,980 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:17:20,980 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:17:20,980 - Model - INFO - Epoch 67 (67/150):
+2023-05-28 23:17:20,980 - Model - INFO - Learning rate:0.000125
+2023-05-28 23:17:34,809 - Model - INFO - Train accuracy is: 0.96478
+2023-05-28 23:17:36,581 - Model - INFO - eval mIoU of guoshi         0.188670
+2023-05-28 23:17:36,581 - Model - INFO - eval mIoU of shuye          0.595136
+2023-05-28 23:17:36,581 - Model - INFO - eval mIoU of zhigan         0.675633
+2023-05-28 23:17:36,582 - Model - INFO - Epoch 67 test Accuracy: 0.932040  Class avg mIOU: 0.486479   Inctance avg mIOU: 0.509619
+2023-05-28 23:17:36,582 - Model - INFO - Best accuracy is: 0.93226
+2023-05-28 23:17:36,582 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:17:36,582 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:17:36,582 - Model - INFO - Epoch 68 (68/150):
+2023-05-28 23:17:36,582 - Model - INFO - Learning rate:0.000125
+2023-05-28 23:17:50,272 - Model - INFO - Train accuracy is: 0.96653
+2023-05-28 23:17:52,024 - Model - INFO - eval mIoU of guoshi         0.241457
+2023-05-28 23:17:52,024 - Model - INFO - eval mIoU of shuye          0.589291
+2023-05-28 23:17:52,024 - Model - INFO - eval mIoU of zhigan         0.671174
+2023-05-28 23:17:52,024 - Model - INFO - Epoch 68 test Accuracy: 0.933673  Class avg mIOU: 0.500641   Inctance avg mIOU: 0.522803
+2023-05-28 23:17:52,024 - Model - INFO - Best accuracy is: 0.93367
+2023-05-28 23:17:52,024 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:17:52,024 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:17:52,024 - Model - INFO - Epoch 69 (69/150):
+2023-05-28 23:17:52,024 - Model - INFO - Learning rate:0.000125
+2023-05-28 23:18:05,747 - Model - INFO - Train accuracy is: 0.96662
+2023-05-28 23:18:07,519 - Model - INFO - eval mIoU of guoshi         0.222956
+2023-05-28 23:18:07,519 - Model - INFO - eval mIoU of shuye          0.561737
+2023-05-28 23:18:07,519 - Model - INFO - eval mIoU of zhigan         0.739931
+2023-05-28 23:18:07,519 - Model - INFO - Epoch 69 test Accuracy: 0.932354  Class avg mIOU: 0.508208   Inctance avg mIOU: 0.538529
+2023-05-28 23:18:07,519 - Model - INFO - Best accuracy is: 0.93367
+2023-05-28 23:18:07,519 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:18:07,519 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:18:07,519 - Model - INFO - Epoch 70 (70/150):
+2023-05-28 23:18:07,520 - Model - INFO - Learning rate:0.000125
+2023-05-28 23:18:21,266 - Model - INFO - Train accuracy is: 0.96824
+2023-05-28 23:18:23,005 - Model - INFO - eval mIoU of guoshi         0.151549
+2023-05-28 23:18:23,005 - Model - INFO - eval mIoU of shuye          0.567608
+2023-05-28 23:18:23,005 - Model - INFO - eval mIoU of zhigan         0.722993
+2023-05-28 23:18:23,005 - Model - INFO - Epoch 70 test Accuracy: 0.932940  Class avg mIOU: 0.480717   Inctance avg mIOU: 0.572618
+2023-05-28 23:18:23,005 - Model - INFO - Best accuracy is: 0.93367
+2023-05-28 23:18:23,005 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:18:23,005 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:18:23,005 - Model - INFO - Epoch 71 (71/150):
+2023-05-28 23:18:23,005 - Model - INFO - Learning rate:0.000125
+2023-05-28 23:18:36,759 - Model - INFO - Train accuracy is: 0.96753
+2023-05-28 23:18:38,492 - Model - INFO - eval mIoU of guoshi         0.236232
+2023-05-28 23:18:38,493 - Model - INFO - eval mIoU of shuye          0.587613
+2023-05-28 23:18:38,493 - Model - INFO - eval mIoU of zhigan         0.644974
+2023-05-28 23:18:38,493 - Model - INFO - Epoch 71 test Accuracy: 0.934592  Class avg mIOU: 0.489606   Inctance avg mIOU: 0.528448
+2023-05-28 23:18:38,493 - Model - INFO - Best accuracy is: 0.93459
+2023-05-28 23:18:38,493 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:18:38,493 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:18:38,493 - Model - INFO - Epoch 72 (72/150):
+2023-05-28 23:18:38,493 - Model - INFO - Learning rate:0.000125
+2023-05-28 23:18:52,196 - Model - INFO - Train accuracy is: 0.96669
+2023-05-28 23:18:53,951 - Model - INFO - eval mIoU of guoshi         0.213409
+2023-05-28 23:18:53,951 - Model - INFO - eval mIoU of shuye          0.581545
+2023-05-28 23:18:53,951 - Model - INFO - eval mIoU of zhigan         0.634178
+2023-05-28 23:18:53,951 - Model - INFO - Epoch 72 test Accuracy: 0.933355  Class avg mIOU: 0.476377   Inctance avg mIOU: 0.526339
+2023-05-28 23:18:53,951 - Model - INFO - Best accuracy is: 0.93459
+2023-05-28 23:18:53,951 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:18:53,951 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:18:53,951 - Model - INFO - Epoch 73 (73/150):
+2023-05-28 23:18:53,951 - Model - INFO - Learning rate:0.000125
+2023-05-28 23:19:07,735 - Model - INFO - Train accuracy is: 0.96778
+2023-05-28 23:19:09,506 - Model - INFO - eval mIoU of guoshi         0.195292
+2023-05-28 23:19:09,506 - Model - INFO - eval mIoU of shuye          0.588486
+2023-05-28 23:19:09,506 - Model - INFO - eval mIoU of zhigan         0.633215
+2023-05-28 23:19:09,506 - Model - INFO - Epoch 73 test Accuracy: 0.933877  Class avg mIOU: 0.472331   Inctance avg mIOU: 0.529975
+2023-05-28 23:19:09,506 - Model - INFO - Best accuracy is: 0.93459
+2023-05-28 23:19:09,506 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:19:09,507 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:19:09,507 - Model - INFO - Epoch 74 (74/150):
+2023-05-28 23:19:09,507 - Model - INFO - Learning rate:0.000125
+2023-05-28 23:19:23,253 - Model - INFO - Train accuracy is: 0.96706
+2023-05-28 23:19:25,035 - Model - INFO - eval mIoU of guoshi         0.282540
+2023-05-28 23:19:25,035 - Model - INFO - eval mIoU of shuye          0.539262
+2023-05-28 23:19:25,035 - Model - INFO - eval mIoU of zhigan         0.671237
+2023-05-28 23:19:25,035 - Model - INFO - Epoch 74 test Accuracy: 0.932988  Class avg mIOU: 0.497680   Inctance avg mIOU: 0.515035
+2023-05-28 23:19:25,035 - Model - INFO - Best accuracy is: 0.93459
+2023-05-28 23:19:25,035 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:19:25,036 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:19:25,036 - Model - INFO - Epoch 75 (75/150):
+2023-05-28 23:19:25,036 - Model - INFO - Learning rate:0.000125
+2023-05-28 23:19:38,783 - Model - INFO - Train accuracy is: 0.96803
+2023-05-28 23:19:40,526 - Model - INFO - eval mIoU of guoshi         0.214358
+2023-05-28 23:19:40,526 - Model - INFO - eval mIoU of shuye          0.564366
+2023-05-28 23:19:40,526 - Model - INFO - eval mIoU of zhigan         0.648325
+2023-05-28 23:19:40,526 - Model - INFO - Epoch 75 test Accuracy: 0.933533  Class avg mIOU: 0.475683   Inctance avg mIOU: 0.497854
+2023-05-28 23:19:40,526 - Model - INFO - Best accuracy is: 0.93459
+2023-05-28 23:19:40,526 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:19:40,526 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:19:40,527 - Model - INFO - Epoch 76 (76/150):
+2023-05-28 23:19:40,527 - Model - INFO - Learning rate:0.000125
+2023-05-28 23:19:54,236 - Model - INFO - Train accuracy is: 0.96867
+2023-05-28 23:19:55,979 - Model - INFO - eval mIoU of guoshi         0.168958
+2023-05-28 23:19:55,979 - Model - INFO - eval mIoU of shuye          0.613482
+2023-05-28 23:19:55,979 - Model - INFO - eval mIoU of zhigan         0.718006
+2023-05-28 23:19:55,979 - Model - INFO - Epoch 76 test Accuracy: 0.935431  Class avg mIOU: 0.500149   Inctance avg mIOU: 0.583387
+2023-05-28 23:19:55,979 - Model - INFO - Best accuracy is: 0.93543
+2023-05-28 23:19:55,979 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:19:55,979 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:19:55,979 - Model - INFO - Epoch 77 (77/150):
+2023-05-28 23:19:55,979 - Model - INFO - Learning rate:0.000125
+2023-05-28 23:20:09,690 - Model - INFO - Train accuracy is: 0.96777
+2023-05-28 23:20:11,446 - Model - INFO - eval mIoU of guoshi         0.183563
+2023-05-28 23:20:11,446 - Model - INFO - eval mIoU of shuye          0.592006
+2023-05-28 23:20:11,446 - Model - INFO - eval mIoU of zhigan         0.671307
+2023-05-28 23:20:11,446 - Model - INFO - Epoch 77 test Accuracy: 0.934230  Class avg mIOU: 0.482292   Inctance avg mIOU: 0.497229
+2023-05-28 23:20:11,446 - Model - INFO - Best accuracy is: 0.93543
+2023-05-28 23:20:11,446 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:20:11,446 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:20:11,446 - Model - INFO - Epoch 78 (78/150):
+2023-05-28 23:20:11,446 - Model - INFO - Learning rate:0.000125
+2023-05-28 23:20:25,933 - Model - INFO - Train accuracy is: 0.96954
+2023-05-28 23:20:27,680 - Model - INFO - eval mIoU of guoshi         0.169232
+2023-05-28 23:20:27,680 - Model - INFO - eval mIoU of shuye          0.637627
+2023-05-28 23:20:27,680 - Model - INFO - eval mIoU of zhigan         0.566034
+2023-05-28 23:20:27,680 - Model - INFO - Epoch 78 test Accuracy: 0.935840  Class avg mIOU: 0.457631   Inctance avg mIOU: 0.468471
+2023-05-28 23:20:27,680 - Model - INFO - Best accuracy is: 0.93584
+2023-05-28 23:20:27,680 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:20:27,680 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:20:27,680 - Model - INFO - Epoch 79 (79/150):
+2023-05-28 23:20:27,680 - Model - INFO - Learning rate:0.000125
+2023-05-28 23:20:41,341 - Model - INFO - Train accuracy is: 0.96830
+2023-05-28 23:20:43,065 - Model - INFO - eval mIoU of guoshi         0.216552
+2023-05-28 23:20:43,065 - Model - INFO - eval mIoU of shuye          0.585522
+2023-05-28 23:20:43,065 - Model - INFO - eval mIoU of zhigan         0.822843
+2023-05-28 23:20:43,065 - Model - INFO - Epoch 79 test Accuracy: 0.935643  Class avg mIOU: 0.541639   Inctance avg mIOU: 0.618523
+2023-05-28 23:20:43,065 - Model - INFO - Best accuracy is: 0.93584
+2023-05-28 23:20:43,065 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:20:43,065 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:20:43,065 - Model - INFO - Epoch 80 (80/150):
+2023-05-28 23:20:43,066 - Model - INFO - Learning rate:0.000125
+2023-05-28 23:20:56,803 - Model - INFO - Train accuracy is: 0.96749
+2023-05-28 23:20:58,521 - Model - INFO - eval mIoU of guoshi         0.183646
+2023-05-28 23:20:58,521 - Model - INFO - eval mIoU of shuye          0.582734
+2023-05-28 23:20:58,521 - Model - INFO - eval mIoU of zhigan         0.641338
+2023-05-28 23:20:58,522 - Model - INFO - Epoch 80 test Accuracy: 0.932372  Class avg mIOU: 0.469239   Inctance avg mIOU: 0.558033
+2023-05-28 23:20:58,522 - Model - INFO - Best accuracy is: 0.93584
+2023-05-28 23:20:58,522 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:20:58,522 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:20:58,522 - Model - INFO - Epoch 81 (81/150):
+2023-05-28 23:20:58,522 - Model - INFO - Learning rate:0.000063
+2023-05-28 23:21:12,204 - Model - INFO - Train accuracy is: 0.96987
+2023-05-28 23:21:13,942 - Model - INFO - eval mIoU of guoshi         0.191682
+2023-05-28 23:21:13,942 - Model - INFO - eval mIoU of shuye          0.587624
+2023-05-28 23:21:13,942 - Model - INFO - eval mIoU of zhigan         0.673668
+2023-05-28 23:21:13,942 - Model - INFO - Epoch 81 test Accuracy: 0.935759  Class avg mIOU: 0.484325   Inctance avg mIOU: 0.503259
+2023-05-28 23:21:13,942 - Model - INFO - Best accuracy is: 0.93584
+2023-05-28 23:21:13,942 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:21:13,942 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:21:13,942 - Model - INFO - Epoch 82 (82/150):
+2023-05-28 23:21:13,942 - Model - INFO - Learning rate:0.000063
+2023-05-28 23:21:27,627 - Model - INFO - Train accuracy is: 0.96941
+2023-05-28 23:21:29,376 - Model - INFO - eval mIoU of guoshi         0.221962
+2023-05-28 23:21:29,376 - Model - INFO - eval mIoU of shuye          0.599507
+2023-05-28 23:21:29,376 - Model - INFO - eval mIoU of zhigan         0.569343
+2023-05-28 23:21:29,376 - Model - INFO - Epoch 82 test Accuracy: 0.936430  Class avg mIOU: 0.463604   Inctance avg mIOU: 0.496071
+2023-05-28 23:21:29,376 - Model - INFO - Best accuracy is: 0.93643
+2023-05-28 23:21:29,376 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:21:29,376 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:21:29,376 - Model - INFO - Epoch 83 (83/150):
+2023-05-28 23:21:29,376 - Model - INFO - Learning rate:0.000063
+2023-05-28 23:21:43,050 - Model - INFO - Train accuracy is: 0.97039
+2023-05-28 23:21:44,803 - Model - INFO - eval mIoU of guoshi         0.237223
+2023-05-28 23:21:44,804 - Model - INFO - eval mIoU of shuye          0.589140
+2023-05-28 23:21:44,804 - Model - INFO - eval mIoU of zhigan         0.732676
+2023-05-28 23:21:44,804 - Model - INFO - Epoch 83 test Accuracy: 0.937270  Class avg mIOU: 0.519680   Inctance avg mIOU: 0.593767
+2023-05-28 23:21:44,804 - Model - INFO - Best accuracy is: 0.93727
+2023-05-28 23:21:44,804 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:21:44,804 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:21:44,804 - Model - INFO - Epoch 84 (84/150):
+2023-05-28 23:21:44,804 - Model - INFO - Learning rate:0.000063
+2023-05-28 23:21:58,530 - Model - INFO - Train accuracy is: 0.97081
+2023-05-28 23:22:00,276 - Model - INFO - eval mIoU of guoshi         0.293500
+2023-05-28 23:22:00,276 - Model - INFO - eval mIoU of shuye          0.550383
+2023-05-28 23:22:00,276 - Model - INFO - eval mIoU of zhigan         0.540761
+2023-05-28 23:22:00,277 - Model - INFO - Epoch 84 test Accuracy: 0.937184  Class avg mIOU: 0.461548   Inctance avg mIOU: 0.507040
+2023-05-28 23:22:00,277 - Model - INFO - Best accuracy is: 0.93727
+2023-05-28 23:22:00,277 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:22:00,277 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:22:00,277 - Model - INFO - Epoch 85 (85/150):
+2023-05-28 23:22:00,277 - Model - INFO - Learning rate:0.000063
+2023-05-28 23:22:13,987 - Model - INFO - Train accuracy is: 0.97289
+2023-05-28 23:22:15,721 - Model - INFO - eval mIoU of guoshi         0.235169
+2023-05-28 23:22:15,721 - Model - INFO - eval mIoU of shuye          0.606419
+2023-05-28 23:22:15,722 - Model - INFO - eval mIoU of zhigan         0.598714
+2023-05-28 23:22:15,722 - Model - INFO - Epoch 85 test Accuracy: 0.938712  Class avg mIOU: 0.480101   Inctance avg mIOU: 0.529857
+2023-05-28 23:22:15,722 - Model - INFO - Best accuracy is: 0.93871
+2023-05-28 23:22:15,722 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:22:15,722 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:22:15,722 - Model - INFO - Epoch 86 (86/150):
+2023-05-28 23:22:15,722 - Model - INFO - Learning rate:0.000063
+2023-05-28 23:22:29,551 - Model - INFO - Train accuracy is: 0.97156
+2023-05-28 23:22:31,308 - Model - INFO - eval mIoU of guoshi         0.238050
+2023-05-28 23:22:31,308 - Model - INFO - eval mIoU of shuye          0.551435
+2023-05-28 23:22:31,308 - Model - INFO - eval mIoU of zhigan         0.601169
+2023-05-28 23:22:31,308 - Model - INFO - Epoch 86 test Accuracy: 0.937491  Class avg mIOU: 0.463551   Inctance avg mIOU: 0.531781
+2023-05-28 23:22:31,308 - Model - INFO - Best accuracy is: 0.93871
+2023-05-28 23:22:31,308 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:22:31,308 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:22:31,308 - Model - INFO - Epoch 87 (87/150):
+2023-05-28 23:22:31,308 - Model - INFO - Learning rate:0.000063
+2023-05-28 23:22:45,144 - Model - INFO - Train accuracy is: 0.97076
+2023-05-28 23:22:46,887 - Model - INFO - eval mIoU of guoshi         0.209294
+2023-05-28 23:22:46,887 - Model - INFO - eval mIoU of shuye          0.568317
+2023-05-28 23:22:46,887 - Model - INFO - eval mIoU of zhigan         0.633869
+2023-05-28 23:22:46,887 - Model - INFO - Epoch 87 test Accuracy: 0.936730  Class avg mIOU: 0.470493   Inctance avg mIOU: 0.526011
+2023-05-28 23:22:46,887 - Model - INFO - Best accuracy is: 0.93871
+2023-05-28 23:22:46,887 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:22:46,887 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:22:46,887 - Model - INFO - Epoch 88 (88/150):
+2023-05-28 23:22:46,887 - Model - INFO - Learning rate:0.000063
+2023-05-28 23:23:00,660 - Model - INFO - Train accuracy is: 0.97140
+2023-05-28 23:23:02,394 - Model - INFO - eval mIoU of guoshi         0.279090
+2023-05-28 23:23:02,394 - Model - INFO - eval mIoU of shuye          0.577541
+2023-05-28 23:23:02,394 - Model - INFO - eval mIoU of zhigan         0.567680
+2023-05-28 23:23:02,394 - Model - INFO - Epoch 88 test Accuracy: 0.936868  Class avg mIOU: 0.474770   Inctance avg mIOU: 0.513413
+2023-05-28 23:23:02,394 - Model - INFO - Best accuracy is: 0.93871
+2023-05-28 23:23:02,394 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:23:02,394 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:23:02,394 - Model - INFO - Epoch 89 (89/150):
+2023-05-28 23:23:02,394 - Model - INFO - Learning rate:0.000063
+2023-05-28 23:23:16,170 - Model - INFO - Train accuracy is: 0.97128
+2023-05-28 23:23:17,913 - Model - INFO - eval mIoU of guoshi         0.230316
+2023-05-28 23:23:17,913 - Model - INFO - eval mIoU of shuye          0.607700
+2023-05-28 23:23:17,914 - Model - INFO - eval mIoU of zhigan         0.721896
+2023-05-28 23:23:17,914 - Model - INFO - Epoch 89 test Accuracy: 0.937422  Class avg mIOU: 0.519970   Inctance avg mIOU: 0.491005
+2023-05-28 23:23:17,914 - Model - INFO - Best accuracy is: 0.93871
+2023-05-28 23:23:17,914 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:23:17,914 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:23:17,914 - Model - INFO - Epoch 90 (90/150):
+2023-05-28 23:23:17,914 - Model - INFO - Learning rate:0.000063
+2023-05-28 23:23:31,628 - Model - INFO - Train accuracy is: 0.97125
+2023-05-28 23:23:33,378 - Model - INFO - eval mIoU of guoshi         0.175572
+2023-05-28 23:23:33,378 - Model - INFO - eval mIoU of shuye          0.582072
+2023-05-28 23:23:33,378 - Model - INFO - eval mIoU of zhigan         0.823640
+2023-05-28 23:23:33,378 - Model - INFO - Epoch 90 test Accuracy: 0.937109  Class avg mIOU: 0.527095   Inctance avg mIOU: 0.552917
+2023-05-28 23:23:33,378 - Model - INFO - Best accuracy is: 0.93871
+2023-05-28 23:23:33,378 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:23:33,378 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:23:33,379 - Model - INFO - Epoch 91 (91/150):
+2023-05-28 23:23:33,379 - Model - INFO - Learning rate:0.000063
+2023-05-28 23:23:47,062 - Model - INFO - Train accuracy is: 0.97011
+2023-05-28 23:23:48,802 - Model - INFO - eval mIoU of guoshi         0.274185
+2023-05-28 23:23:48,802 - Model - INFO - eval mIoU of shuye          0.577880
+2023-05-28 23:23:48,802 - Model - INFO - eval mIoU of zhigan         0.659963
+2023-05-28 23:23:48,802 - Model - INFO - Epoch 91 test Accuracy: 0.936193  Class avg mIOU: 0.504009   Inctance avg mIOU: 0.561054
+2023-05-28 23:23:48,802 - Model - INFO - Best accuracy is: 0.93871
+2023-05-28 23:23:48,802 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:23:48,802 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:23:48,802 - Model - INFO - Epoch 92 (92/150):
+2023-05-28 23:23:48,802 - Model - INFO - Learning rate:0.000063
+2023-05-28 23:24:02,539 - Model - INFO - Train accuracy is: 0.97237
+2023-05-28 23:24:04,311 - Model - INFO - eval mIoU of guoshi         0.263480
+2023-05-28 23:24:04,311 - Model - INFO - eval mIoU of shuye          0.600367
+2023-05-28 23:24:04,311 - Model - INFO - eval mIoU of zhigan         0.557828
+2023-05-28 23:24:04,311 - Model - INFO - Epoch 92 test Accuracy: 0.939256  Class avg mIOU: 0.473892   Inctance avg mIOU: 0.526438
+2023-05-28 23:24:04,311 - Model - INFO - Best accuracy is: 0.93926
+2023-05-28 23:24:04,312 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:24:04,312 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:24:04,312 - Model - INFO - Epoch 93 (93/150):
+2023-05-28 23:24:04,312 - Model - INFO - Learning rate:0.000063
+2023-05-28 23:24:18,083 - Model - INFO - Train accuracy is: 0.97104
+2023-05-28 23:24:19,847 - Model - INFO - eval mIoU of guoshi         0.256942
+2023-05-28 23:24:19,847 - Model - INFO - eval mIoU of shuye          0.555226
+2023-05-28 23:24:19,847 - Model - INFO - eval mIoU of zhigan         0.569865
+2023-05-28 23:24:19,847 - Model - INFO - Epoch 93 test Accuracy: 0.938113  Class avg mIOU: 0.460678   Inctance avg mIOU: 0.472328
+2023-05-28 23:24:19,847 - Model - INFO - Best accuracy is: 0.93926
+2023-05-28 23:24:19,847 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:24:19,847 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:24:19,847 - Model - INFO - Epoch 94 (94/150):
+2023-05-28 23:24:19,847 - Model - INFO - Learning rate:0.000063
+2023-05-28 23:24:33,530 - Model - INFO - Train accuracy is: 0.97213
+2023-05-28 23:24:35,272 - Model - INFO - eval mIoU of guoshi         0.255782
+2023-05-28 23:24:35,272 - Model - INFO - eval mIoU of shuye          0.608619
+2023-05-28 23:24:35,272 - Model - INFO - eval mIoU of zhigan         0.534820
+2023-05-28 23:24:35,273 - Model - INFO - Epoch 94 test Accuracy: 0.938253  Class avg mIOU: 0.466407   Inctance avg mIOU: 0.518794
+2023-05-28 23:24:35,273 - Model - INFO - Best accuracy is: 0.93926
+2023-05-28 23:24:35,273 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:24:35,273 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:24:35,273 - Model - INFO - Epoch 95 (95/150):
+2023-05-28 23:24:35,273 - Model - INFO - Learning rate:0.000063
+2023-05-28 23:24:48,942 - Model - INFO - Train accuracy is: 0.97221
+2023-05-28 23:24:50,665 - Model - INFO - eval mIoU of guoshi         0.203716
+2023-05-28 23:24:50,665 - Model - INFO - eval mIoU of shuye          0.597255
+2023-05-28 23:24:50,665 - Model - INFO - eval mIoU of zhigan         0.548469
+2023-05-28 23:24:50,665 - Model - INFO - Epoch 95 test Accuracy: 0.938752  Class avg mIOU: 0.449814   Inctance avg mIOU: 0.442441
+2023-05-28 23:24:50,665 - Model - INFO - Best accuracy is: 0.93926
+2023-05-28 23:24:50,665 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:24:50,665 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:24:50,665 - Model - INFO - Epoch 96 (96/150):
+2023-05-28 23:24:50,665 - Model - INFO - Learning rate:0.000063
+2023-05-28 23:25:04,468 - Model - INFO - Train accuracy is: 0.97401
+2023-05-28 23:25:06,197 - Model - INFO - eval mIoU of guoshi         0.123205
+2023-05-28 23:25:06,198 - Model - INFO - eval mIoU of shuye          0.587694
+2023-05-28 23:25:06,198 - Model - INFO - eval mIoU of zhigan         0.673626
+2023-05-28 23:25:06,198 - Model - INFO - Epoch 96 test Accuracy: 0.940006  Class avg mIOU: 0.461508   Inctance avg mIOU: 0.571321
+2023-05-28 23:25:06,198 - Model - INFO - Best accuracy is: 0.94001
+2023-05-28 23:25:06,198 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:25:06,198 - Model - INFO - Best inctance avg mIOU is: 0.62651
+2023-05-28 23:25:06,198 - Model - INFO - Epoch 97 (97/150):
+2023-05-28 23:25:06,198 - Model - INFO - Learning rate:0.000063
+2023-05-28 23:25:20,343 - Model - INFO - Train accuracy is: 0.97293
+2023-05-28 23:25:22,106 - Model - INFO - eval mIoU of guoshi         nan
+2023-05-28 23:25:22,106 - Model - INFO - eval mIoU of shuye          0.585643
+2023-05-28 23:25:22,106 - Model - INFO - eval mIoU of zhigan         0.725970
+2023-05-28 23:25:22,106 - Model - INFO - Epoch 97 test Accuracy: 0.939121  Class avg mIOU: nan   Inctance avg mIOU: 0.627741
+2023-05-28 23:25:22,106 - Model - INFO - Save model...
+2023-05-28 23:25:22,106 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg_mysgfpa3/checkpoints/best_model.pth
+2023-05-28 23:25:22,214 - Model - INFO - Saving model....
+2023-05-28 23:25:22,214 - Model - INFO - Best accuracy is: 0.94001
+2023-05-28 23:25:22,214 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:25:22,214 - Model - INFO - Best inctance avg mIOU is: 0.62774
+2023-05-28 23:25:22,215 - Model - INFO - Epoch 98 (98/150):
+2023-05-28 23:25:22,215 - Model - INFO - Learning rate:0.000063
+2023-05-28 23:25:35,918 - Model - INFO - Train accuracy is: 0.97184
+2023-05-28 23:25:37,650 - Model - INFO - eval mIoU of guoshi         0.203512
+2023-05-28 23:25:37,650 - Model - INFO - eval mIoU of shuye          0.598201
+2023-05-28 23:25:37,651 - Model - INFO - eval mIoU of zhigan         0.716253
+2023-05-28 23:25:37,651 - Model - INFO - Epoch 98 test Accuracy: 0.938712  Class avg mIOU: 0.505989   Inctance avg mIOU: 0.613882
+2023-05-28 23:25:37,651 - Model - INFO - Best accuracy is: 0.94001
+2023-05-28 23:25:37,651 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:25:37,651 - Model - INFO - Best inctance avg mIOU is: 0.62774
+2023-05-28 23:25:37,651 - Model - INFO - Epoch 99 (99/150):
+2023-05-28 23:25:37,651 - Model - INFO - Learning rate:0.000063
+2023-05-28 23:25:51,401 - Model - INFO - Train accuracy is: 0.97231
+2023-05-28 23:25:53,133 - Model - INFO - eval mIoU of guoshi         0.208643
+2023-05-28 23:25:53,134 - Model - INFO - eval mIoU of shuye          0.569499
+2023-05-28 23:25:53,134 - Model - INFO - eval mIoU of zhigan         0.743181
+2023-05-28 23:25:53,134 - Model - INFO - Epoch 99 test Accuracy: 0.938591  Class avg mIOU: 0.507108   Inctance avg mIOU: 0.566800
+2023-05-28 23:25:53,134 - Model - INFO - Best accuracy is: 0.94001
+2023-05-28 23:25:53,134 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:25:53,134 - Model - INFO - Best inctance avg mIOU is: 0.62774
+2023-05-28 23:25:53,134 - Model - INFO - Epoch 100 (100/150):
+2023-05-28 23:25:53,134 - Model - INFO - Learning rate:0.000063
+2023-05-28 23:26:06,895 - Model - INFO - Train accuracy is: 0.97276
+2023-05-28 23:26:08,681 - Model - INFO - eval mIoU of guoshi         0.191600
+2023-05-28 23:26:08,681 - Model - INFO - eval mIoU of shuye          0.572972
+2023-05-28 23:26:08,682 - Model - INFO - eval mIoU of zhigan         0.708601
+2023-05-28 23:26:08,682 - Model - INFO - Epoch 100 test Accuracy: 0.938128  Class avg mIOU: 0.491058   Inctance avg mIOU: 0.486962
+2023-05-28 23:26:08,682 - Model - INFO - Best accuracy is: 0.94001
+2023-05-28 23:26:08,682 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:26:08,682 - Model - INFO - Best inctance avg mIOU is: 0.62774
+2023-05-28 23:26:08,682 - Model - INFO - Epoch 101 (101/150):
+2023-05-28 23:26:08,683 - Model - INFO - Learning rate:0.000031
+2023-05-28 23:26:22,397 - Model - INFO - Train accuracy is: 0.97457
+2023-05-28 23:26:24,152 - Model - INFO - eval mIoU of guoshi         0.199836
+2023-05-28 23:26:24,152 - Model - INFO - eval mIoU of shuye          0.590656
+2023-05-28 23:26:24,152 - Model - INFO - eval mIoU of zhigan         0.685966
+2023-05-28 23:26:24,152 - Model - INFO - Epoch 101 test Accuracy: 0.939295  Class avg mIOU: 0.492153   Inctance avg mIOU: 0.521544
+2023-05-28 23:26:24,152 - Model - INFO - Best accuracy is: 0.94001
+2023-05-28 23:26:24,152 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:26:24,152 - Model - INFO - Best inctance avg mIOU is: 0.62774
+2023-05-28 23:26:24,152 - Model - INFO - Epoch 102 (102/150):
+2023-05-28 23:26:24,152 - Model - INFO - Learning rate:0.000031
+2023-05-28 23:26:37,917 - Model - INFO - Train accuracy is: 0.97432
+2023-05-28 23:26:39,674 - Model - INFO - eval mIoU of guoshi         0.191838
+2023-05-28 23:26:39,674 - Model - INFO - eval mIoU of shuye          0.591121
+2023-05-28 23:26:39,674 - Model - INFO - eval mIoU of zhigan         0.662831
+2023-05-28 23:26:39,674 - Model - INFO - Epoch 102 test Accuracy: 0.939501  Class avg mIOU: 0.481930   Inctance avg mIOU: 0.559913
+2023-05-28 23:26:39,674 - Model - INFO - Best accuracy is: 0.94001
+2023-05-28 23:26:39,674 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:26:39,674 - Model - INFO - Best inctance avg mIOU is: 0.62774
+2023-05-28 23:26:39,675 - Model - INFO - Epoch 103 (103/150):
+2023-05-28 23:26:39,675 - Model - INFO - Learning rate:0.000031
+2023-05-28 23:26:53,404 - Model - INFO - Train accuracy is: 0.97411
+2023-05-28 23:26:55,148 - Model - INFO - eval mIoU of guoshi         0.181465
+2023-05-28 23:26:55,148 - Model - INFO - eval mIoU of shuye          0.560960
+2023-05-28 23:26:55,148 - Model - INFO - eval mIoU of zhigan         0.729206
+2023-05-28 23:26:55,148 - Model - INFO - Epoch 103 test Accuracy: 0.939872  Class avg mIOU: 0.490544   Inctance avg mIOU: 0.495435
+2023-05-28 23:26:55,148 - Model - INFO - Best accuracy is: 0.94001
+2023-05-28 23:26:55,149 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:26:55,149 - Model - INFO - Best inctance avg mIOU is: 0.62774
+2023-05-28 23:26:55,149 - Model - INFO - Epoch 104 (104/150):
+2023-05-28 23:26:55,149 - Model - INFO - Learning rate:0.000031
+2023-05-28 23:27:08,813 - Model - INFO - Train accuracy is: 0.97327
+2023-05-28 23:27:10,540 - Model - INFO - eval mIoU of guoshi         0.195053
+2023-05-28 23:27:10,540 - Model - INFO - eval mIoU of shuye          0.571482
+2023-05-28 23:27:10,540 - Model - INFO - eval mIoU of zhigan         0.600408
+2023-05-28 23:27:10,540 - Model - INFO - Epoch 104 test Accuracy: 0.940066  Class avg mIOU: 0.455647   Inctance avg mIOU: 0.513551
+2023-05-28 23:27:10,540 - Model - INFO - Best accuracy is: 0.94007
+2023-05-28 23:27:10,540 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:27:10,541 - Model - INFO - Best inctance avg mIOU is: 0.62774
+2023-05-28 23:27:10,541 - Model - INFO - Epoch 105 (105/150):
+2023-05-28 23:27:10,541 - Model - INFO - Learning rate:0.000031
+2023-05-28 23:27:24,295 - Model - INFO - Train accuracy is: 0.97386
+2023-05-28 23:27:26,061 - Model - INFO - eval mIoU of guoshi         0.220832
+2023-05-28 23:27:26,062 - Model - INFO - eval mIoU of shuye          0.559975
+2023-05-28 23:27:26,062 - Model - INFO - eval mIoU of zhigan         0.534594
+2023-05-28 23:27:26,062 - Model - INFO - Epoch 105 test Accuracy: 0.940476  Class avg mIOU: 0.438467   Inctance avg mIOU: 0.446811
+2023-05-28 23:27:26,062 - Model - INFO - Best accuracy is: 0.94048
+2023-05-28 23:27:26,062 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:27:26,062 - Model - INFO - Best inctance avg mIOU is: 0.62774
+2023-05-28 23:27:26,062 - Model - INFO - Epoch 106 (106/150):
+2023-05-28 23:27:26,062 - Model - INFO - Learning rate:0.000031
+2023-05-28 23:27:39,767 - Model - INFO - Train accuracy is: 0.97426
+2023-05-28 23:27:41,528 - Model - INFO - eval mIoU of guoshi         0.201353
+2023-05-28 23:27:41,528 - Model - INFO - eval mIoU of shuye          0.602200
+2023-05-28 23:27:41,528 - Model - INFO - eval mIoU of zhigan         0.644773
+2023-05-28 23:27:41,529 - Model - INFO - Epoch 106 test Accuracy: 0.940973  Class avg mIOU: 0.482775   Inctance avg mIOU: 0.581273
+2023-05-28 23:27:41,529 - Model - INFO - Best accuracy is: 0.94097
+2023-05-28 23:27:41,529 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:27:41,529 - Model - INFO - Best inctance avg mIOU is: 0.62774
+2023-05-28 23:27:41,529 - Model - INFO - Epoch 107 (107/150):
+2023-05-28 23:27:41,529 - Model - INFO - Learning rate:0.000031
+2023-05-28 23:27:55,257 - Model - INFO - Train accuracy is: 0.97415
+2023-05-28 23:27:57,030 - Model - INFO - eval mIoU of guoshi         0.197491
+2023-05-28 23:27:57,030 - Model - INFO - eval mIoU of shuye          0.552974
+2023-05-28 23:27:57,030 - Model - INFO - eval mIoU of zhigan         0.808786
+2023-05-28 23:27:57,030 - Model - INFO - Epoch 107 test Accuracy: 0.940148  Class avg mIOU: 0.519750   Inctance avg mIOU: 0.469750
+2023-05-28 23:27:57,030 - Model - INFO - Best accuracy is: 0.94097
+2023-05-28 23:27:57,030 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:27:57,030 - Model - INFO - Best inctance avg mIOU is: 0.62774
+2023-05-28 23:27:57,030 - Model - INFO - Epoch 108 (108/150):
+2023-05-28 23:27:57,030 - Model - INFO - Learning rate:0.000031
+2023-05-28 23:28:10,768 - Model - INFO - Train accuracy is: 0.97464
+2023-05-28 23:28:12,504 - Model - INFO - eval mIoU of guoshi         0.238874
+2023-05-28 23:28:12,504 - Model - INFO - eval mIoU of shuye          0.589537
+2023-05-28 23:28:12,504 - Model - INFO - eval mIoU of zhigan         0.582689
+2023-05-28 23:28:12,504 - Model - INFO - Epoch 108 test Accuracy: 0.940622  Class avg mIOU: 0.470367   Inctance avg mIOU: 0.481257
+2023-05-28 23:28:12,504 - Model - INFO - Best accuracy is: 0.94097
+2023-05-28 23:28:12,504 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:28:12,504 - Model - INFO - Best inctance avg mIOU is: 0.62774
+2023-05-28 23:28:12,504 - Model - INFO - Epoch 109 (109/150):
+2023-05-28 23:28:12,504 - Model - INFO - Learning rate:0.000031
+2023-05-28 23:28:26,305 - Model - INFO - Train accuracy is: 0.97340
+2023-05-28 23:28:28,044 - Model - INFO - eval mIoU of guoshi         0.167001
+2023-05-28 23:28:28,044 - Model - INFO - eval mIoU of shuye          0.621307
+2023-05-28 23:28:28,044 - Model - INFO - eval mIoU of zhigan         0.650369
+2023-05-28 23:28:28,044 - Model - INFO - Epoch 109 test Accuracy: 0.939937  Class avg mIOU: 0.479559   Inctance avg mIOU: 0.544977
+2023-05-28 23:28:28,044 - Model - INFO - Best accuracy is: 0.94097
+2023-05-28 23:28:28,044 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:28:28,044 - Model - INFO - Best inctance avg mIOU is: 0.62774
+2023-05-28 23:28:28,044 - Model - INFO - Epoch 110 (110/150):
+2023-05-28 23:28:28,044 - Model - INFO - Learning rate:0.000031
+2023-05-28 23:28:41,815 - Model - INFO - Train accuracy is: 0.97434
+2023-05-28 23:28:43,587 - Model - INFO - eval mIoU of guoshi         0.195637
+2023-05-28 23:28:43,587 - Model - INFO - eval mIoU of shuye          0.620983
+2023-05-28 23:28:43,587 - Model - INFO - eval mIoU of zhigan         0.599945
+2023-05-28 23:28:43,587 - Model - INFO - Epoch 110 test Accuracy: 0.939786  Class avg mIOU: 0.472188   Inctance avg mIOU: 0.526447
+2023-05-28 23:28:43,587 - Model - INFO - Best accuracy is: 0.94097
+2023-05-28 23:28:43,587 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:28:43,587 - Model - INFO - Best inctance avg mIOU is: 0.62774
+2023-05-28 23:28:43,587 - Model - INFO - Epoch 111 (111/150):
+2023-05-28 23:28:43,587 - Model - INFO - Learning rate:0.000031
+2023-05-28 23:28:57,337 - Model - INFO - Train accuracy is: 0.97430
+2023-05-28 23:28:59,070 - Model - INFO - eval mIoU of guoshi         0.229616
+2023-05-28 23:28:59,070 - Model - INFO - eval mIoU of shuye          0.593783
+2023-05-28 23:28:59,070 - Model - INFO - eval mIoU of zhigan         0.592166
+2023-05-28 23:28:59,070 - Model - INFO - Epoch 111 test Accuracy: 0.940256  Class avg mIOU: 0.471855   Inctance avg mIOU: 0.483967
+2023-05-28 23:28:59,070 - Model - INFO - Best accuracy is: 0.94097
+2023-05-28 23:28:59,070 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:28:59,070 - Model - INFO - Best inctance avg mIOU is: 0.62774
+2023-05-28 23:28:59,070 - Model - INFO - Epoch 112 (112/150):
+2023-05-28 23:28:59,070 - Model - INFO - Learning rate:0.000031
+2023-05-28 23:29:12,786 - Model - INFO - Train accuracy is: 0.97432
+2023-05-28 23:29:14,526 - Model - INFO - eval mIoU of guoshi         0.204630
+2023-05-28 23:29:14,526 - Model - INFO - eval mIoU of shuye          0.605348
+2023-05-28 23:29:14,526 - Model - INFO - eval mIoU of zhigan         0.416887
+2023-05-28 23:29:14,526 - Model - INFO - Epoch 112 test Accuracy: 0.940545  Class avg mIOU: 0.408955   Inctance avg mIOU: 0.456863
+2023-05-28 23:29:14,527 - Model - INFO - Best accuracy is: 0.94097
+2023-05-28 23:29:14,527 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:29:14,527 - Model - INFO - Best inctance avg mIOU is: 0.62774
+2023-05-28 23:29:14,527 - Model - INFO - Epoch 113 (113/150):
+2023-05-28 23:29:14,527 - Model - INFO - Learning rate:0.000031
+2023-05-28 23:29:28,236 - Model - INFO - Train accuracy is: 0.97412
+2023-05-28 23:29:29,980 - Model - INFO - eval mIoU of guoshi         0.256449
+2023-05-28 23:29:29,980 - Model - INFO - eval mIoU of shuye          0.582441
+2023-05-28 23:29:29,980 - Model - INFO - eval mIoU of zhigan         0.647795
+2023-05-28 23:29:29,980 - Model - INFO - Epoch 113 test Accuracy: 0.940171  Class avg mIOU: 0.495562   Inctance avg mIOU: 0.553148
+2023-05-28 23:29:29,980 - Model - INFO - Best accuracy is: 0.94097
+2023-05-28 23:29:29,980 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:29:29,980 - Model - INFO - Best inctance avg mIOU is: 0.62774
+2023-05-28 23:29:29,980 - Model - INFO - Epoch 114 (114/150):
+2023-05-28 23:29:29,980 - Model - INFO - Learning rate:0.000031
+2023-05-28 23:29:43,704 - Model - INFO - Train accuracy is: 0.97340
+2023-05-28 23:29:45,481 - Model - INFO - eval mIoU of guoshi         nan
+2023-05-28 23:29:45,482 - Model - INFO - eval mIoU of shuye          0.603229
+2023-05-28 23:29:45,482 - Model - INFO - eval mIoU of zhigan         0.548413
+2023-05-28 23:29:45,482 - Model - INFO - Epoch 114 test Accuracy: 0.939917  Class avg mIOU: nan   Inctance avg mIOU: 0.578562
+2023-05-28 23:29:45,482 - Model - INFO - Best accuracy is: 0.94097
+2023-05-28 23:29:45,482 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:29:45,483 - Model - INFO - Best inctance avg mIOU is: 0.62774
+2023-05-28 23:29:45,483 - Model - INFO - Epoch 115 (115/150):
+2023-05-28 23:29:45,483 - Model - INFO - Learning rate:0.000031
+2023-05-28 23:29:59,234 - Model - INFO - Train accuracy is: 0.97577
+2023-05-28 23:30:00,970 - Model - INFO - eval mIoU of guoshi         0.225406
+2023-05-28 23:30:00,971 - Model - INFO - eval mIoU of shuye          0.561923
+2023-05-28 23:30:00,971 - Model - INFO - eval mIoU of zhigan         0.817482
+2023-05-28 23:30:00,971 - Model - INFO - Epoch 115 test Accuracy: 0.940945  Class avg mIOU: 0.534937   Inctance avg mIOU: 0.630495
+2023-05-28 23:30:00,971 - Model - INFO - Save model...
+2023-05-28 23:30:00,971 - Model - INFO - Saving at log/part_seg/pointnet2_part_seg_msg_mysgfpa3/checkpoints/best_model.pth
+2023-05-28 23:30:01,079 - Model - INFO - Saving model....
+2023-05-28 23:30:01,079 - Model - INFO - Best accuracy is: 0.94097
+2023-05-28 23:30:01,079 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:30:01,079 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:30:01,080 - Model - INFO - Epoch 116 (116/150):
+2023-05-28 23:30:01,080 - Model - INFO - Learning rate:0.000031
+2023-05-28 23:30:14,824 - Model - INFO - Train accuracy is: 0.97436
+2023-05-28 23:30:16,586 - Model - INFO - eval mIoU of guoshi         0.238794
+2023-05-28 23:30:16,586 - Model - INFO - eval mIoU of shuye          0.579632
+2023-05-28 23:30:16,586 - Model - INFO - eval mIoU of zhigan         0.577639
+2023-05-28 23:30:16,587 - Model - INFO - Epoch 116 test Accuracy: 0.939907  Class avg mIOU: 0.465355   Inctance avg mIOU: 0.493725
+2023-05-28 23:30:16,587 - Model - INFO - Best accuracy is: 0.94097
+2023-05-28 23:30:16,587 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:30:16,587 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:30:16,587 - Model - INFO - Epoch 117 (117/150):
+2023-05-28 23:30:16,587 - Model - INFO - Learning rate:0.000031
+2023-05-28 23:30:30,267 - Model - INFO - Train accuracy is: 0.97361
+2023-05-28 23:30:31,988 - Model - INFO - eval mIoU of guoshi         0.272817
+2023-05-28 23:30:31,988 - Model - INFO - eval mIoU of shuye          0.580035
+2023-05-28 23:30:31,988 - Model - INFO - eval mIoU of zhigan         0.751191
+2023-05-28 23:30:31,988 - Model - INFO - Epoch 117 test Accuracy: 0.940522  Class avg mIOU: 0.534681   Inctance avg mIOU: 0.571693
+2023-05-28 23:30:31,988 - Model - INFO - Best accuracy is: 0.94097
+2023-05-28 23:30:31,988 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:30:31,988 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:30:31,988 - Model - INFO - Epoch 118 (118/150):
+2023-05-28 23:30:31,988 - Model - INFO - Learning rate:0.000031
+2023-05-28 23:30:45,643 - Model - INFO - Train accuracy is: 0.97499
+2023-05-28 23:30:47,388 - Model - INFO - eval mIoU of guoshi         0.263467
+2023-05-28 23:30:47,388 - Model - INFO - eval mIoU of shuye          0.578279
+2023-05-28 23:30:47,388 - Model - INFO - eval mIoU of zhigan         0.605676
+2023-05-28 23:30:47,388 - Model - INFO - Epoch 118 test Accuracy: 0.940832  Class avg mIOU: 0.482474   Inctance avg mIOU: 0.509165
+2023-05-28 23:30:47,388 - Model - INFO - Best accuracy is: 0.94097
+2023-05-28 23:30:47,389 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:30:47,389 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:30:47,389 - Model - INFO - Epoch 119 (119/150):
+2023-05-28 23:30:47,389 - Model - INFO - Learning rate:0.000031
+2023-05-28 23:31:01,126 - Model - INFO - Train accuracy is: 0.97492
+2023-05-28 23:31:02,875 - Model - INFO - eval mIoU of guoshi         0.186625
+2023-05-28 23:31:02,875 - Model - INFO - eval mIoU of shuye          0.605033
+2023-05-28 23:31:02,875 - Model - INFO - eval mIoU of zhigan         0.607444
+2023-05-28 23:31:02,875 - Model - INFO - Epoch 119 test Accuracy: 0.940382  Class avg mIOU: 0.466367   Inctance avg mIOU: 0.438514
+2023-05-28 23:31:02,875 - Model - INFO - Best accuracy is: 0.94097
+2023-05-28 23:31:02,875 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:31:02,875 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:31:02,875 - Model - INFO - Epoch 120 (120/150):
+2023-05-28 23:31:02,875 - Model - INFO - Learning rate:0.000031
+2023-05-28 23:31:16,618 - Model - INFO - Train accuracy is: 0.97440
+2023-05-28 23:31:18,370 - Model - INFO - eval mIoU of guoshi         0.226254
+2023-05-28 23:31:18,370 - Model - INFO - eval mIoU of shuye          0.570991
+2023-05-28 23:31:18,370 - Model - INFO - eval mIoU of zhigan         0.653824
+2023-05-28 23:31:18,370 - Model - INFO - Epoch 120 test Accuracy: 0.940927  Class avg mIOU: 0.483690   Inctance avg mIOU: 0.479325
+2023-05-28 23:31:18,370 - Model - INFO - Best accuracy is: 0.94097
+2023-05-28 23:31:18,370 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:31:18,370 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:31:18,370 - Model - INFO - Epoch 121 (121/150):
+2023-05-28 23:31:18,370 - Model - INFO - Learning rate:0.000016
+2023-05-28 23:31:32,094 - Model - INFO - Train accuracy is: 0.97422
+2023-05-28 23:31:33,848 - Model - INFO - eval mIoU of guoshi         0.212758
+2023-05-28 23:31:33,848 - Model - INFO - eval mIoU of shuye          0.589598
+2023-05-28 23:31:33,848 - Model - INFO - eval mIoU of zhigan         0.652810
+2023-05-28 23:31:33,849 - Model - INFO - Epoch 121 test Accuracy: 0.939950  Class avg mIOU: 0.485055   Inctance avg mIOU: 0.536354
+2023-05-28 23:31:33,849 - Model - INFO - Best accuracy is: 0.94097
+2023-05-28 23:31:33,849 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:31:33,849 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:31:33,849 - Model - INFO - Epoch 122 (122/150):
+2023-05-28 23:31:33,849 - Model - INFO - Learning rate:0.000016
+2023-05-28 23:31:47,706 - Model - INFO - Train accuracy is: 0.97349
+2023-05-28 23:31:49,809 - Model - INFO - eval mIoU of guoshi         0.159379
+2023-05-28 23:31:49,809 - Model - INFO - eval mIoU of shuye          0.592978
+2023-05-28 23:31:49,809 - Model - INFO - eval mIoU of zhigan         0.824322
+2023-05-28 23:31:49,809 - Model - INFO - Epoch 122 test Accuracy: 0.939509  Class avg mIOU: 0.525560   Inctance avg mIOU: 0.530847
+2023-05-28 23:31:49,809 - Model - INFO - Best accuracy is: 0.94097
+2023-05-28 23:31:49,809 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:31:49,809 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:31:49,809 - Model - INFO - Epoch 123 (123/150):
+2023-05-28 23:31:49,809 - Model - INFO - Learning rate:0.000016
+2023-05-28 23:32:03,927 - Model - INFO - Train accuracy is: 0.97563
+2023-05-28 23:32:05,688 - Model - INFO - eval mIoU of guoshi         0.287538
+2023-05-28 23:32:05,689 - Model - INFO - eval mIoU of shuye          0.584557
+2023-05-28 23:32:05,689 - Model - INFO - eval mIoU of zhigan         0.645913
+2023-05-28 23:32:05,689 - Model - INFO - Epoch 123 test Accuracy: 0.940647  Class avg mIOU: 0.506003   Inctance avg mIOU: 0.555343
+2023-05-28 23:32:05,689 - Model - INFO - Best accuracy is: 0.94097
+2023-05-28 23:32:05,689 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:32:05,689 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:32:05,689 - Model - INFO - Epoch 124 (124/150):
+2023-05-28 23:32:05,689 - Model - INFO - Learning rate:0.000016
+2023-05-28 23:32:19,432 - Model - INFO - Train accuracy is: 0.97608
+2023-05-28 23:32:21,179 - Model - INFO - eval mIoU of guoshi         0.186184
+2023-05-28 23:32:21,179 - Model - INFO - eval mIoU of shuye          0.576999
+2023-05-28 23:32:21,179 - Model - INFO - eval mIoU of zhigan         0.676885
+2023-05-28 23:32:21,179 - Model - INFO - Epoch 124 test Accuracy: 0.941511  Class avg mIOU: 0.480023   Inctance avg mIOU: 0.563326
+2023-05-28 23:32:21,179 - Model - INFO - Best accuracy is: 0.94151
+2023-05-28 23:32:21,179 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:32:21,179 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:32:21,179 - Model - INFO - Epoch 125 (125/150):
+2023-05-28 23:32:21,179 - Model - INFO - Learning rate:0.000016
+2023-05-28 23:32:34,867 - Model - INFO - Train accuracy is: 0.97501
+2023-05-28 23:32:36,663 - Model - INFO - eval mIoU of guoshi         0.182805
+2023-05-28 23:32:36,664 - Model - INFO - eval mIoU of shuye          0.563129
+2023-05-28 23:32:36,664 - Model - INFO - eval mIoU of zhigan         0.703339
+2023-05-28 23:32:36,664 - Model - INFO - Epoch 125 test Accuracy: 0.941521  Class avg mIOU: 0.483091   Inctance avg mIOU: 0.590206
+2023-05-28 23:32:36,664 - Model - INFO - Best accuracy is: 0.94152
+2023-05-28 23:32:36,664 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:32:36,664 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:32:36,664 - Model - INFO - Epoch 126 (126/150):
+2023-05-28 23:32:36,664 - Model - INFO - Learning rate:0.000016
+2023-05-28 23:32:50,375 - Model - INFO - Train accuracy is: 0.97645
+2023-05-28 23:32:52,110 - Model - INFO - eval mIoU of guoshi         0.187740
+2023-05-28 23:32:52,110 - Model - INFO - eval mIoU of shuye          0.593649
+2023-05-28 23:32:52,110 - Model - INFO - eval mIoU of zhigan         0.641296
+2023-05-28 23:32:52,110 - Model - INFO - Epoch 126 test Accuracy: 0.942538  Class avg mIOU: 0.474229   Inctance avg mIOU: 0.554204
+2023-05-28 23:32:52,110 - Model - INFO - Best accuracy is: 0.94254
+2023-05-28 23:32:52,110 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:32:52,110 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:32:52,110 - Model - INFO - Epoch 127 (127/150):
+2023-05-28 23:32:52,110 - Model - INFO - Learning rate:0.000016
+2023-05-28 23:33:05,852 - Model - INFO - Train accuracy is: 0.97659
+2023-05-28 23:33:07,622 - Model - INFO - eval mIoU of guoshi         0.256158
+2023-05-28 23:33:07,622 - Model - INFO - eval mIoU of shuye          0.564546
+2023-05-28 23:33:07,622 - Model - INFO - eval mIoU of zhigan         0.603729
+2023-05-28 23:33:07,622 - Model - INFO - Epoch 127 test Accuracy: 0.942549  Class avg mIOU: 0.474811   Inctance avg mIOU: 0.516583
+2023-05-28 23:33:07,622 - Model - INFO - Best accuracy is: 0.94255
+2023-05-28 23:33:07,622 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:33:07,622 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:33:07,623 - Model - INFO - Epoch 128 (128/150):
+2023-05-28 23:33:07,623 - Model - INFO - Learning rate:0.000016
+2023-05-28 23:33:21,381 - Model - INFO - Train accuracy is: 0.97534
+2023-05-28 23:33:23,100 - Model - INFO - eval mIoU of guoshi         0.224870
+2023-05-28 23:33:23,100 - Model - INFO - eval mIoU of shuye          0.602831
+2023-05-28 23:33:23,100 - Model - INFO - eval mIoU of zhigan         0.631970
+2023-05-28 23:33:23,100 - Model - INFO - Epoch 128 test Accuracy: 0.941724  Class avg mIOU: 0.486557   Inctance avg mIOU: 0.541809
+2023-05-28 23:33:23,101 - Model - INFO - Best accuracy is: 0.94255
+2023-05-28 23:33:23,101 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:33:23,101 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:33:23,101 - Model - INFO - Epoch 129 (129/150):
+2023-05-28 23:33:23,101 - Model - INFO - Learning rate:0.000016
+2023-05-28 23:33:36,806 - Model - INFO - Train accuracy is: 0.97666
+2023-05-28 23:33:38,585 - Model - INFO - eval mIoU of guoshi         0.189732
+2023-05-28 23:33:38,585 - Model - INFO - eval mIoU of shuye          0.605662
+2023-05-28 23:33:38,585 - Model - INFO - eval mIoU of zhigan         0.827436
+2023-05-28 23:33:38,585 - Model - INFO - Epoch 129 test Accuracy: 0.942963  Class avg mIOU: 0.540943   Inctance avg mIOU: 0.504441
+2023-05-28 23:33:38,585 - Model - INFO - Best accuracy is: 0.94296
+2023-05-28 23:33:38,585 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:33:38,585 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:33:38,585 - Model - INFO - Epoch 130 (130/150):
+2023-05-28 23:33:38,585 - Model - INFO - Learning rate:0.000016
+2023-05-28 23:33:52,337 - Model - INFO - Train accuracy is: 0.97579
+2023-05-28 23:33:54,062 - Model - INFO - eval mIoU of guoshi         0.186334
+2023-05-28 23:33:54,062 - Model - INFO - eval mIoU of shuye          0.570674
+2023-05-28 23:33:54,062 - Model - INFO - eval mIoU of zhigan         0.649801
+2023-05-28 23:33:54,062 - Model - INFO - Epoch 130 test Accuracy: 0.942232  Class avg mIOU: 0.468936   Inctance avg mIOU: 0.525457
+2023-05-28 23:33:54,062 - Model - INFO - Best accuracy is: 0.94296
+2023-05-28 23:33:54,062 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:33:54,062 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:33:54,062 - Model - INFO - Epoch 131 (131/150):
+2023-05-28 23:33:54,062 - Model - INFO - Learning rate:0.000016
+2023-05-28 23:34:07,750 - Model - INFO - Train accuracy is: 0.97452
+2023-05-28 23:34:09,486 - Model - INFO - eval mIoU of guoshi         0.181376
+2023-05-28 23:34:09,487 - Model - INFO - eval mIoU of shuye          0.563108
+2023-05-28 23:34:09,487 - Model - INFO - eval mIoU of zhigan         0.684330
+2023-05-28 23:34:09,487 - Model - INFO - Epoch 131 test Accuracy: 0.940174  Class avg mIOU: 0.476272   Inctance avg mIOU: 0.516164
+2023-05-28 23:34:09,487 - Model - INFO - Best accuracy is: 0.94296
+2023-05-28 23:34:09,487 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:34:09,487 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:34:09,487 - Model - INFO - Epoch 132 (132/150):
+2023-05-28 23:34:09,487 - Model - INFO - Learning rate:0.000016
+2023-05-28 23:34:23,286 - Model - INFO - Train accuracy is: 0.97556
+2023-05-28 23:34:25,034 - Model - INFO - eval mIoU of guoshi         0.308746
+2023-05-28 23:34:25,034 - Model - INFO - eval mIoU of shuye          0.568158
+2023-05-28 23:34:25,034 - Model - INFO - eval mIoU of zhigan         0.700649
+2023-05-28 23:34:25,034 - Model - INFO - Epoch 132 test Accuracy: 0.940853  Class avg mIOU: 0.525851   Inctance avg mIOU: 0.581964
+2023-05-28 23:34:25,034 - Model - INFO - Best accuracy is: 0.94296
+2023-05-28 23:34:25,034 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:34:25,034 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:34:25,034 - Model - INFO - Epoch 133 (133/150):
+2023-05-28 23:34:25,034 - Model - INFO - Learning rate:0.000016
+2023-05-28 23:34:38,797 - Model - INFO - Train accuracy is: 0.97493
+2023-05-28 23:34:40,547 - Model - INFO - eval mIoU of guoshi         0.224144
+2023-05-28 23:34:40,547 - Model - INFO - eval mIoU of shuye          0.582542
+2023-05-28 23:34:40,547 - Model - INFO - eval mIoU of zhigan         0.743740
+2023-05-28 23:34:40,547 - Model - INFO - Epoch 133 test Accuracy: 0.940720  Class avg mIOU: 0.516809   Inctance avg mIOU: 0.557422
+2023-05-28 23:34:40,547 - Model - INFO - Best accuracy is: 0.94296
+2023-05-28 23:34:40,547 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:34:40,547 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:34:40,548 - Model - INFO - Epoch 134 (134/150):
+2023-05-28 23:34:40,548 - Model - INFO - Learning rate:0.000016
+2023-05-28 23:34:54,337 - Model - INFO - Train accuracy is: 0.97616
+2023-05-28 23:34:56,071 - Model - INFO - eval mIoU of guoshi         0.240305
+2023-05-28 23:34:56,071 - Model - INFO - eval mIoU of shuye          0.592840
+2023-05-28 23:34:56,071 - Model - INFO - eval mIoU of zhigan         0.479018
+2023-05-28 23:34:56,071 - Model - INFO - Epoch 134 test Accuracy: 0.941540  Class avg mIOU: 0.437388   Inctance avg mIOU: 0.517195
+2023-05-28 23:34:56,071 - Model - INFO - Best accuracy is: 0.94296
+2023-05-28 23:34:56,072 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:34:56,072 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:34:56,072 - Model - INFO - Epoch 135 (135/150):
+2023-05-28 23:34:56,072 - Model - INFO - Learning rate:0.000016
+2023-05-28 23:35:09,763 - Model - INFO - Train accuracy is: 0.97760
+2023-05-28 23:35:11,518 - Model - INFO - eval mIoU of guoshi         0.202380
+2023-05-28 23:35:11,518 - Model - INFO - eval mIoU of shuye          0.587806
+2023-05-28 23:35:11,518 - Model - INFO - eval mIoU of zhigan         0.744366
+2023-05-28 23:35:11,518 - Model - INFO - Epoch 135 test Accuracy: 0.943042  Class avg mIOU: 0.511517   Inctance avg mIOU: 0.611887
+2023-05-28 23:35:11,518 - Model - INFO - Best accuracy is: 0.94304
+2023-05-28 23:35:11,518 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:35:11,518 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:35:11,518 - Model - INFO - Epoch 136 (136/150):
+2023-05-28 23:35:11,518 - Model - INFO - Learning rate:0.000016
+2023-05-28 23:35:25,247 - Model - INFO - Train accuracy is: 0.97457
+2023-05-28 23:35:26,975 - Model - INFO - eval mIoU of guoshi         0.178141
+2023-05-28 23:35:26,975 - Model - INFO - eval mIoU of shuye          0.589433
+2023-05-28 23:35:26,975 - Model - INFO - eval mIoU of zhigan         0.815639
+2023-05-28 23:35:26,976 - Model - INFO - Epoch 136 test Accuracy: 0.940423  Class avg mIOU: 0.527738   Inctance avg mIOU: 0.529795
+2023-05-28 23:35:26,976 - Model - INFO - Best accuracy is: 0.94304
+2023-05-28 23:35:26,976 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:35:26,976 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:35:26,976 - Model - INFO - Epoch 137 (137/150):
+2023-05-28 23:35:26,976 - Model - INFO - Learning rate:0.000016
+2023-05-28 23:35:41,348 - Model - INFO - Train accuracy is: 0.97571
+2023-05-28 23:35:43,108 - Model - INFO - eval mIoU of guoshi         0.172325
+2023-05-28 23:35:43,108 - Model - INFO - eval mIoU of shuye          0.585899
+2023-05-28 23:35:43,108 - Model - INFO - eval mIoU of zhigan         0.727013
+2023-05-28 23:35:43,108 - Model - INFO - Epoch 137 test Accuracy: 0.940896  Class avg mIOU: 0.495079   Inctance avg mIOU: 0.566197
+2023-05-28 23:35:43,108 - Model - INFO - Best accuracy is: 0.94304
+2023-05-28 23:35:43,108 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:35:43,108 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:35:43,108 - Model - INFO - Epoch 138 (138/150):
+2023-05-28 23:35:43,108 - Model - INFO - Learning rate:0.000016
+2023-05-28 23:35:57,786 - Model - INFO - Train accuracy is: 0.97651
+2023-05-28 23:35:59,739 - Model - INFO - eval mIoU of guoshi         0.192143
+2023-05-28 23:35:59,739 - Model - INFO - eval mIoU of shuye          0.585824
+2023-05-28 23:35:59,739 - Model - INFO - eval mIoU of zhigan         0.635496
+2023-05-28 23:35:59,739 - Model - INFO - Epoch 138 test Accuracy: 0.942646  Class avg mIOU: 0.471155   Inctance avg mIOU: 0.588492
+2023-05-28 23:35:59,739 - Model - INFO - Best accuracy is: 0.94304
+2023-05-28 23:35:59,739 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:35:59,739 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:35:59,739 - Model - INFO - Epoch 139 (139/150):
+2023-05-28 23:35:59,739 - Model - INFO - Learning rate:0.000016
+2023-05-28 23:36:13,818 - Model - INFO - Train accuracy is: 0.97509
+2023-05-28 23:36:15,562 - Model - INFO - eval mIoU of guoshi         0.193395
+2023-05-28 23:36:15,563 - Model - INFO - eval mIoU of shuye          0.583277
+2023-05-28 23:36:15,563 - Model - INFO - eval mIoU of zhigan         0.631323
+2023-05-28 23:36:15,563 - Model - INFO - Epoch 139 test Accuracy: 0.941011  Class avg mIOU: 0.469332   Inctance avg mIOU: 0.519715
+2023-05-28 23:36:15,563 - Model - INFO - Best accuracy is: 0.94304
+2023-05-28 23:36:15,563 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:36:15,563 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:36:15,563 - Model - INFO - Epoch 140 (140/150):
+2023-05-28 23:36:15,563 - Model - INFO - Learning rate:0.000016
+2023-05-28 23:36:29,688 - Model - INFO - Train accuracy is: 0.97684
+2023-05-28 23:36:31,427 - Model - INFO - eval mIoU of guoshi         0.301550
+2023-05-28 23:36:31,427 - Model - INFO - eval mIoU of shuye          0.589202
+2023-05-28 23:36:31,427 - Model - INFO - eval mIoU of zhigan         0.677648
+2023-05-28 23:36:31,427 - Model - INFO - Epoch 140 test Accuracy: 0.942195  Class avg mIOU: 0.522800   Inctance avg mIOU: 0.619043
+2023-05-28 23:36:31,427 - Model - INFO - Best accuracy is: 0.94304
+2023-05-28 23:36:31,427 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:36:31,428 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:36:31,428 - Model - INFO - Epoch 141 (141/150):
+2023-05-28 23:36:31,428 - Model - INFO - Learning rate:0.000010
+2023-05-28 23:36:45,302 - Model - INFO - Train accuracy is: 0.97554
+2023-05-28 23:36:47,062 - Model - INFO - eval mIoU of guoshi         0.221552
+2023-05-28 23:36:47,062 - Model - INFO - eval mIoU of shuye          0.596001
+2023-05-28 23:36:47,062 - Model - INFO - eval mIoU of zhigan         0.682540
+2023-05-28 23:36:47,062 - Model - INFO - Epoch 141 test Accuracy: 0.941415  Class avg mIOU: 0.500031   Inctance avg mIOU: 0.538419
+2023-05-28 23:36:47,062 - Model - INFO - Best accuracy is: 0.94304
+2023-05-28 23:36:47,062 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:36:47,062 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:36:47,062 - Model - INFO - Epoch 142 (142/150):
+2023-05-28 23:36:47,062 - Model - INFO - Learning rate:0.000010
+2023-05-28 23:37:00,913 - Model - INFO - Train accuracy is: 0.97676
+2023-05-28 23:37:02,652 - Model - INFO - eval mIoU of guoshi         0.253717
+2023-05-28 23:37:02,652 - Model - INFO - eval mIoU of shuye          0.631153
+2023-05-28 23:37:02,652 - Model - INFO - eval mIoU of zhigan         0.657560
+2023-05-28 23:37:02,652 - Model - INFO - Epoch 142 test Accuracy: 0.943184  Class avg mIOU: 0.514143   Inctance avg mIOU: 0.567549
+2023-05-28 23:37:02,652 - Model - INFO - Best accuracy is: 0.94318
+2023-05-28 23:37:02,652 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:37:02,652 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:37:02,652 - Model - INFO - Epoch 143 (143/150):
+2023-05-28 23:37:02,652 - Model - INFO - Learning rate:0.000010
+2023-05-28 23:37:16,602 - Model - INFO - Train accuracy is: 0.97625
+2023-05-28 23:37:18,382 - Model - INFO - eval mIoU of guoshi         0.221774
+2023-05-28 23:37:18,382 - Model - INFO - eval mIoU of shuye          0.617616
+2023-05-28 23:37:18,382 - Model - INFO - eval mIoU of zhigan         0.609560
+2023-05-28 23:37:18,382 - Model - INFO - Epoch 143 test Accuracy: 0.942262  Class avg mIOU: 0.482983   Inctance avg mIOU: 0.534017
+2023-05-28 23:37:18,382 - Model - INFO - Best accuracy is: 0.94318
+2023-05-28 23:37:18,382 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:37:18,382 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:37:18,382 - Model - INFO - Epoch 144 (144/150):
+2023-05-28 23:37:18,382 - Model - INFO - Learning rate:0.000010
+2023-05-28 23:37:32,590 - Model - INFO - Train accuracy is: 0.97557
+2023-05-28 23:37:34,441 - Model - INFO - eval mIoU of guoshi         0.263376
+2023-05-28 23:37:34,441 - Model - INFO - eval mIoU of shuye          0.576421
+2023-05-28 23:37:34,441 - Model - INFO - eval mIoU of zhigan         0.616098
+2023-05-28 23:37:34,441 - Model - INFO - Epoch 144 test Accuracy: 0.941764  Class avg mIOU: 0.485298   Inctance avg mIOU: 0.562971
+2023-05-28 23:37:34,441 - Model - INFO - Best accuracy is: 0.94318
+2023-05-28 23:37:34,441 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:37:34,441 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:37:34,441 - Model - INFO - Epoch 145 (145/150):
+2023-05-28 23:37:34,441 - Model - INFO - Learning rate:0.000010
+2023-05-28 23:37:48,287 - Model - INFO - Train accuracy is: 0.97543
+2023-05-28 23:37:50,044 - Model - INFO - eval mIoU of guoshi         0.218033
+2023-05-28 23:37:50,044 - Model - INFO - eval mIoU of shuye          0.596717
+2023-05-28 23:37:50,044 - Model - INFO - eval mIoU of zhigan         0.738870
+2023-05-28 23:37:50,044 - Model - INFO - Epoch 145 test Accuracy: 0.940975  Class avg mIOU: 0.517873   Inctance avg mIOU: 0.487889
+2023-05-28 23:37:50,044 - Model - INFO - Best accuracy is: 0.94318
+2023-05-28 23:37:50,044 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:37:50,044 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:37:50,044 - Model - INFO - Epoch 146 (146/150):
+2023-05-28 23:37:50,044 - Model - INFO - Learning rate:0.000010
+2023-05-28 23:38:04,187 - Model - INFO - Train accuracy is: 0.97675
+2023-05-28 23:38:05,966 - Model - INFO - eval mIoU of guoshi         0.214141
+2023-05-28 23:38:05,967 - Model - INFO - eval mIoU of shuye          0.586289
+2023-05-28 23:38:05,967 - Model - INFO - eval mIoU of zhigan         0.622473
+2023-05-28 23:38:05,967 - Model - INFO - Epoch 146 test Accuracy: 0.942463  Class avg mIOU: 0.474301   Inctance avg mIOU: 0.541322
+2023-05-28 23:38:05,967 - Model - INFO - Best accuracy is: 0.94318
+2023-05-28 23:38:05,967 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:38:05,967 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:38:05,967 - Model - INFO - Epoch 147 (147/150):
+2023-05-28 23:38:05,967 - Model - INFO - Learning rate:0.000010
+2023-05-28 23:38:20,521 - Model - INFO - Train accuracy is: 0.97680
+2023-05-28 23:38:22,518 - Model - INFO - eval mIoU of guoshi         0.275758
+2023-05-28 23:38:22,518 - Model - INFO - eval mIoU of shuye          0.578927
+2023-05-28 23:38:22,518 - Model - INFO - eval mIoU of zhigan         0.599600
+2023-05-28 23:38:22,518 - Model - INFO - Epoch 147 test Accuracy: 0.943286  Class avg mIOU: 0.484762   Inctance avg mIOU: 0.481087
+2023-05-28 23:38:22,518 - Model - INFO - Best accuracy is: 0.94329
+2023-05-28 23:38:22,518 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:38:22,518 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:38:22,518 - Model - INFO - Epoch 148 (148/150):
+2023-05-28 23:38:22,518 - Model - INFO - Learning rate:0.000010
+2023-05-28 23:38:38,600 - Model - INFO - Train accuracy is: 0.97628
+2023-05-28 23:38:40,336 - Model - INFO - eval mIoU of guoshi         0.206922
+2023-05-28 23:38:40,337 - Model - INFO - eval mIoU of shuye          0.588505
+2023-05-28 23:38:40,337 - Model - INFO - eval mIoU of zhigan         0.692467
+2023-05-28 23:38:40,337 - Model - INFO - Epoch 148 test Accuracy: 0.941984  Class avg mIOU: 0.495965   Inctance avg mIOU: 0.553773
+2023-05-28 23:38:40,337 - Model - INFO - Best accuracy is: 0.94329
+2023-05-28 23:38:40,337 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:38:40,337 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:38:40,337 - Model - INFO - Epoch 149 (149/150):
+2023-05-28 23:38:40,337 - Model - INFO - Learning rate:0.000010
+2023-05-28 23:38:57,219 - Model - INFO - Train accuracy is: 0.97692
+2023-05-28 23:38:58,963 - Model - INFO - eval mIoU of guoshi         0.233538
+2023-05-28 23:38:58,963 - Model - INFO - eval mIoU of shuye          0.565094
+2023-05-28 23:38:58,963 - Model - INFO - eval mIoU of zhigan         0.837930
+2023-05-28 23:38:58,963 - Model - INFO - Epoch 149 test Accuracy: 0.942659  Class avg mIOU: 0.545521   Inctance avg mIOU: 0.594275
+2023-05-28 23:38:58,963 - Model - INFO - Best accuracy is: 0.94329
+2023-05-28 23:38:58,963 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:38:58,963 - Model - INFO - Best inctance avg mIOU is: 0.63050
+2023-05-28 23:38:58,963 - Model - INFO - Epoch 150 (150/150):
+2023-05-28 23:38:58,963 - Model - INFO - Learning rate:0.000010
+2023-05-28 23:39:12,682 - Model - INFO - Train accuracy is: 0.97644
+2023-05-28 23:39:14,461 - Model - INFO - eval mIoU of guoshi         0.206266
+2023-05-28 23:39:14,461 - Model - INFO - eval mIoU of shuye          0.568546
+2023-05-28 23:39:14,461 - Model - INFO - eval mIoU of zhigan         0.637672
+2023-05-28 23:39:14,461 - Model - INFO - Epoch 150 test Accuracy: 0.942210  Class avg mIOU: 0.470828   Inctance avg mIOU: 0.498714
+2023-05-28 23:39:14,461 - Model - INFO - Best accuracy is: 0.94329
+2023-05-28 23:39:14,461 - Model - INFO - Best class avg mIOU is: 0.56778
+2023-05-28 23:39:14,461 - Model - INFO - Best inctance avg mIOU is: 0.63050
